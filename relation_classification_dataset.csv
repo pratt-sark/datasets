@@ -1,0 +1,3220 @@
+entity1,entity2,relation_type
+languages,as French,CONJUNCTION
+,,FEATURE-OF
+,,HYPONYM-OF
+method,intrinsic object structure,USED-FOR
+intrinsic object structure,robust visual tracking,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+digital signal processor -LRB- DSP -RRB- implementation,real-time statistical voice conversion -LRB- VC -RRB-,USED-FOR
+real-time statistical voice conversion -LRB- VC -RRB-,silent speech enhancement,USED-FOR
+real-time statistical voice conversion -LRB- VC -RRB-,electrolaryngeal speech enhancement,USED-FOR
+silent speech enhancement,electrolaryngeal speech enhancement,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,USED-FOR
+method,paraphrase,USED-FOR
+paraphrase,machine translation evaluation measures,USED-FOR
+BLEU,machine translation evaluation measures,HYPONYM-OF
+BLEU,NIST,CONJUNCTION
+NIST,machine translation evaluation measures,HYPONYM-OF
+variation in a,;,CONJUNCTION
+hand-produced sets,to,USED-FOR
+hand-produced sets,,CONJUNCTION
+,to,USED-FOR
+,variation in a,CONJUNCTION
+,,COMPARE
+,,USED-FOR
+Graph unification,unification-based grammar parsing,PART-OF
+of unmodified,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+system,subcategorization dictionary,USED-FOR
+textual corpora,system,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+InfoMagnets,interactive corpus exploration tool,HYPONYM-OF
+are,text mining .,USED-FOR
+submitted,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+conversational speech,language modeling,USED-FOR
+,from the,USED-FOR
+method,detecting 3D objects,USED-FOR
+multi-modalities,method,USED-FOR
+an,map,USED-FOR
+.,map,USED-FOR
+.,,CONJUNCTION
+,map,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+compact description of a video sequence,domains,USED-FOR
+image map,compact description of a video sequence,USED-FOR
+image map,dominant motion,CONJUNCTION
+dominant motion,compact description of a video sequence,USED-FOR
+video browsing and retrieval,domains,HYPONYM-OF
+video browsing and retrieval,compression,CONJUNCTION
+compression,domains,HYPONYM-OF
+compression,mosaicing,CONJUNCTION
+mosaicing,domains,HYPONYM-OF
+mosaicing,visual summarization,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+dominant factors,domain divergence,PART-OF
+viewpoints,dominant factors,HYPONYM-OF
+viewpoints,resolutions,CONJUNCTION
+resolutions,dominant factors,HYPONYM-OF
+resolutions,illuminations,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,PART-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,EVALUATE-FOR
+,,COMPARE
+pattern cross,from different dictionaries,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+model,structure of communicative context,USED-FOR
+dialogue interaction,structure of communicative context,FEATURE-OF
+web interfaces,desktop PCs,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+approach,parsing,USED-FOR
+unification-based parsing,approach,USED-FOR
+classification-based knowledge representation,approach,USED-FOR
+classification-based knowledge representation,unification-based parsing,CONJUNCTION
+that have been,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+user knowledge modeling architecture,ICICLE system,USED-FOR
+ICICLE system,language tutoring application,HYPONYM-OF
+language tutoring application,deaf learners,USED-FOR
+written English,language tutoring application,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+Constraint propagation,constraint programming,PART-OF
+,,USED-FOR
+,,COMPARE
+,,COMPARE
+,,CONJUNCTION
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+detection method,orthographic variants,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+Uncertainty handling,shape tracking,USED-FOR
+greatly improves the tracking performance for very noisy images such,-LSB-,USED-FOR
+-LSB-,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,CONJUNCTION
+syntax-based constraint,word alignment,USED-FOR
+cohesion constraint,syntax-based constraint,HYPONYM-OF
+,.,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,be computed automatically from,USED-FOR
+,be computed automatically from,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+robust interactive method,speech understanding,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+medium-length speeches,EUROPARL corpus,PART-OF
+accuracy,classification method,EVALUATE-FOR
+automatic phonetic transcriptions -LRB- APTs -RRB-,manually verified phonetic transcriptions,COMPARE
+automatic phonetic transcriptions -LRB- APTs -RRB-,pronunciation variation,USED-FOR
+manually verified phonetic transcriptions,pronunciation variation,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+computer programs,flowing text,USED-FOR
+computer programs,fact assertions,USED-FOR
+fact assertions,narrative content,FEATURE-OF
+,,PART-OF
+,,PART-OF
+,,FEATURE-OF
+,,CONJUNCTION
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+a,including biological,USED-FOR
+.,traffic,HYPONYM-OF
+.,,CONJUNCTION
+,traffic,HYPONYM-OF
+,,CONJUNCTION
+,traffic,HYPONYM-OF
+formal analysis,alternative markers,USED-FOR
+,,PART-OF
+,,PART-OF
+,,PART-OF
+,,PART-OF
+.,performance of,HYPONYM-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+method,NLP structures,USED-FOR
+reranking approaches,NLP structures,FEATURE-OF
+,clusters or word,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+algorithm,learning the time-varying shape of a non-rigid 3D object,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+Automatic summarization,information extraction,CONJUNCTION
+Internet,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+rich spatial-temporal structures,action videos,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,COMPARE
+the construction,a parser returning,USED-FOR
+the construction,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+high variance,to train because,EVALUATE-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+exemplar-based framework,image completion,USED-FOR
+exemplar-based framework,texture synthesis,USED-FOR
+exemplar-based framework,image inpainting,USED-FOR
+image completion,texture synthesis,CONJUNCTION
+texture synthesis,image inpainting,CONJUNCTION
+defined objective,,COMPARE
+,,FEATURE-OF
+,,FEATURE-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,PART-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+segment order,segmentation,CONJUNCTION
+segment order,translation memory system,USED-FOR
+segmentation,segment contiguity,CONJUNCTION
+segmentation,translation memory system,USED-FOR
+segment contiguity,translation memory system,USED-FOR
+retrieval,translation memory system,EVALUATE-FOR
+,contiguity models -LRB- in the form of,USED-FOR
+,contiguity models -LRB- in the form of,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+outputs,text collections,USED-FOR
+named entity annotations,outputs,HYPONYM-OF
+named entity annotations,scenario templates,CONJUNCTION
+scenario templates,outputs,HYPONYM-OF
+text browser,text collections,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+model-based bundle adjustment algorithm,3D model,USED-FOR
+images,3D model,USED-FOR
+unknown motions,images,PART-OF
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+approach,unsupervised learning of parts of speech,USED-FOR
+morphological and syntactic information,approach,USED-FOR
+only,variety,COMPARE
+variety,requires that we consider morphology as well,USED-FOR
+,variety,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+approaches,part-of-speech tagging,USED-FOR
+French,approaches,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+Structured-light methods,geometric correspondence data,USED-FOR
+geometric correspondence data,robust 3D reconstruction,USED-FOR
+,,PART-OF
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+adaptive learning procedure,syntactic ambiguity resolution,USED-FOR
+maximum likelihood method,fail to,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+approach,statistical sentence generation,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,COMPARE
+,,COMPARE
+,,CONJUNCTION
+natural language -LRB- NL -RRB-,Structured Inheritance Network -LRB- SI-Nets -RRB- paradigm,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,FEATURE-OF
+,,FEATURE-OF
+algorithm,calibrated camera relative pose estimation,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+fully automated extraction system,gene and protein interactions,USED-FOR
+IntEx,fully automated extraction system,HYPONYM-OF
+biomedical text,gene and protein interactions,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+method,computational analysis of move structures,USED-FOR
+abstracts of research articles,computational analysis of move structures,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+real-time system,multiple object tracking in dynamic scenes,USED-FOR
+knowledge,objects .,USED-FOR
+,,FEATURE-OF
+,,FEATURE-OF
+,,CONJUNCTION
+,background,EVALUATE-FOR
+method,organizing reading materials,USED-FOR
+organizing reading materials,vocabulary learning,USED-FOR
+,,HYPONYM-OF
+bootstrapping approach,Named Entity -LRB- NE -RRB- tagging,USED-FOR
+concept-based seeds,bootstrapping approach,USED-FOR
+concept-based seeds,successive learners,CONJUNCTION
+successive learners,bootstrapping approach,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+word sense disambiguation,Chinese-to-English SMT model,EVALUATE-FOR
+WSD evaluation methodology,Chinese-to-English SMT model,EVALUATE-FOR
+Senseval-3 Chinese lexical sample task,Chinese-to-English SMT model,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,COMPARE
+,,COMPARE
+,,USED-FOR
+predicate-argument structures,IE paradigm,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+statistical profile,Named Entity task,USED-FOR
+Named Entity task,information extraction task,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+lyrics in music,under-explored language genre of spoken language,HYPONYM-OF
+unsuper-vised induction,under-explored language genre of spoken language,USED-FOR
+unsuper-vised induction,SMT-style stochastic transduction grammar,USED-FOR
+unsuper-vised induction,fully-automatically learned challenge-response system,USED-FOR
+hip hop lyrics,SMT-style stochastic transduction grammar,FEATURE-OF
+fully-automatically learned challenge-response system,rhyming lyrics,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+spoken multiparty dialogue,predicting segment boundaries,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,COMPARE
+,", are better indicators for the",PART-OF
+,,USED-FOR
+,", are better indicators for the",PART-OF
+,,USED-FOR
+,,CONJUNCTION
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+unsupervised technique,morphology,USED-FOR
+hubs,unsupervised technique,USED-FOR
+hubs,automaton,PART-OF
+one,,HYPONYM-OF
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+conjugate priors,Bayesian machine learning,PART-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+PCFG-LA,generative probabilistic model of parse trees,HYPONYM-OF
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+little,which uses a large amount of speech from a few speakers instead,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+"system ,",,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+CFG filtering techniques,LTAG,USED-FOR
+CFG filtering techniques,HPSG,USED-FOR
+LTAG,HPSG,COMPARE
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+statistical models,Syntax-based statistical machine translation -LRB- MT -RRB-,USED-FOR
+structured data,statistical models,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+distributional measures of word co-occurrences,framework,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+range concatenation grammar -LSB- RCG -RSB- formalism,NLP,USED-FOR
+,increasing their worst-case parsing time complexity,FEATURE-OF
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+Ant-Q,symmetric and asym-metric instances of the traveling salesman problem -LRB- TSP -RRB-,USED-FOR
+,-RRB- .,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,PART-OF
+,,COMPARE
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+geometric framework,linear or nonlinear discriminant subspace learning and classification,USED-FOR
+,semi-Riemannian space .,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+deterministic parser,deterministic parsers,COMPARE
+symbolic and connectionist components,it,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+semantic domain models,natural language interpretation,USED-FOR
+semantic domain models,fail-soft recovery heuristics,CONJUNCTION
+fail-soft recovery heuristics,natural language interpretation,USED-FOR
+fail-soft recovery heuristics,control structures,CONJUNCTION
+control structures,natural language interpretation,USED-FOR
+degree of,domain knowledge,COMPARE
+,,CONJUNCTION
+,,PART-OF
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+,,CONJUNCTION
+,,USED-FOR
+,,PART-OF
+Stacked Auto-Encoders -LRB- SAE -RRB-,learning imbalanced datasets,USED-FOR
+Automatic Speech Recognition,,USED-FOR
+system .,Automatic Speech Recognition,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+statistical machine learning algorithm,smallest meaning-bearing units of language,USED-FOR
+morphemes,smallest meaning-bearing units of language,HYPONYM-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+spoken language corpus,ATIS -LRB- Air Travel Information System -RRB- domain,USED-FOR
+,,EVALUATE-FOR
+Hierarchical Directed Acyclic Graph -LRB- HDAG -RRB- Kernel,structured natural language data,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,COMPARE
+,,COMPARE
+,,CONJUNCTION
+generative history-based latent variable model,CoNLL 2008 shared task,USED-FOR
+generative history-based latent variable model,synchronous dependency parser,USED-FOR
+synchronous dependency parser,syntactic and semantic dependencies,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+N-gram models,statistical language modeling,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,CONJUNCTION
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+document classification,applications,HYPONYM-OF
+,,COMPARE
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,of,USED-FOR
+,,CONJUNCTION
+,of,USED-FOR
+,of,USED-FOR
+,of,USED-FOR
+,of,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+semantically annotated corpus,large-scale acquisition of word-semantic information,USED-FOR
+construction of domain-independent lexica,large-scale acquisition of word-semantic information,HYPONYM-OF
+,,PART-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,FEATURE-OF
+Statistical machine translation -LRB- SMT -RRB-,natural language processing,HYPONYM-OF
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+unsupervised learning approach,non-English -LRB- Arabic -RRB- stemmer,USED-FOR
+parallel corpus as,small -LRB-,USED-FOR
+.,sole,USED-FOR
+,sole,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+HMM-based TTS system,German speech,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+hierarchical relations,thesaurus construction,PART-OF
+superordinate - hyponym relation,hierarchical relations,HYPONYM-OF
+superordinate - hyponym relation,synonym relation,CONJUNCTION
+synonym relation,hierarchical relations,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+phrase-based unigram model,statistical machine translation,USED-FOR
+phrase-based unigram model,phrase-based models,COMPARE
+model parameters,phrase-based unigram model,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+approach,fast detection,USED-FOR
+face detection,database retrieval,CONJUNCTION
+low false positive rates,,USED-FOR
+,rates,EVALUATE-FOR
+,,CONJUNCTION
+,rates,EVALUATE-FOR
+,,FEATURE-OF
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,CONJUNCTION
+method,joint embed-dings of images and text,USED-FOR
+two-branch neural network,method,USED-FOR
+multiple layers of linear projections,two-branch neural network,PART-OF
+multiple layers of linear projections,nonlinearities,CONJUNCTION
+nonlinearities,two-branch neural network,PART-OF
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+"multilingual , multimedia data",TAP-XL Automated Analyst 's Assistant,USED-FOR
+,,USED-FOR
+Unification Categorial Grammar -LRB- UCG -RRB-,Isomorphic Grammars,USED-FOR
+Isomorphic Grammars,Machine Translation,USED-FOR
+TL expressions which,in,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,HYPONYM-OF
+,,HYPONYM-OF
+identifying rare behaviours of interest,security domain,PART-OF
+do exist,be,USED-FOR
+,,USED-FOR
+,,USED-FOR
+computational model,discourse task,USED-FOR
+,,PART-OF
+,,USED-FOR
+approach,Thai key prediction,USED-FOR
+approach,Thai-English language identification,USED-FOR
+n-gram models,approach,USED-FOR
+n-gram models,error-correction rules,CONJUNCTION
+error-correction rules,approach,USED-FOR
+Thai key prediction,Thai-English language identification,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+discourse understanding process,spoken dialogue systems,USED-FOR
+.,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+news articles,question-focused sentence retrieval,USED-FOR
+multi-event stories,news articles,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+defeasible reasoning,sentence analysis,USED-FOR
+treatment,Japanese sentence analyses,USED-FOR
+argumentation system,Japanese sentence analyses,USED-FOR
+arguments,formalization of defeasible reasoning,PART-OF
+arguments,defeat rules,CONJUNCTION
+defeat rules,formalization of defeasible reasoning,PART-OF
+defeasibility,arguments,FEATURE-OF
+defeasibility,defeat rules,FEATURE-OF
+and,", necessary data",USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+Hidden Markov Model -LRB- HMM -RRB-,HMM-based chunk tagger,CONJUNCTION
+Hidden Markov Model -LRB- HMM -RRB-,named entity -LRB- NE -RRB- recognition -LRB- NER -RRB- system,USED-FOR
+HMM-based chunk tagger,named entity -LRB- NE -RRB- recognition -LRB- NER -RRB- system,USED-FOR
+named entity -LRB- NE -RRB- recognition -LRB- NER -RRB- system,names,USED-FOR
+named entity -LRB- NE -RRB- recognition -LRB- NER -RRB- system,times and numerical quantities,USED-FOR
+names,times and numerical quantities,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+themes,speech and text image processing,PART-OF
+recognition technology,document-oriented applications,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+low-level feature representations,predicting image or video interestingness,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,COMPARE
+knowledge representation,description logics -LRB- DLs -RRB-,CONJUNCTION
+data-driven selection,embodied conversational agent,USED-FOR
+emphatic facial displays,data-driven selection,USED-FOR
+embodied conversational agent,dialogue system,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+HMMs,classifying high-dimensional sequence data,USED-FOR
+HMMs,CRFs,CONJUNCTION
+CRFs,classifying high-dimensional sequence data,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+algorithm,chart-based phrase structure parsing,USED-FOR
+natural language,chart-based phrase structure parsing,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,FEATURE-OF
+,,FEATURE-OF
+Automatic estimation of word significance,speech-based Information Retrieval -LRB- IR -RRB-,USED-FOR
+"viewpoint of IR , instead of word","-LRB- WWER -RRB- , which gives",EVALUATE-FOR
+,"viewpoint of IR , instead of word",COMPARE
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,HYPONYM-OF
+Methods,spelling correction,USED-FOR
+spelling correction,languages,USED-FOR
+English,languages,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+training method,localized phrase-based prediction model,USED-FOR
+localized phrase-based prediction model,statistical machine translation -LRB- SMT -RRB-,USED-FOR
+,,USED-FOR
+features .,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+data structure,phrase-based statistical machine translation,USED-FOR
+data structure,retrieval of arbitrarily long phrases,USED-FOR
+,,CONJUNCTION
+,,PART-OF
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+continuous speech recognition -LRB- CSR -RRB- techniques,Spoken Language Systems -LRB- SLS -RRB-,USED-FOR
+Spoken Language Systems -LRB- SLS -RRB-,military and civilian computer-based systems,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+word vectors,similarity between words,USED-FOR
+vector space model,word vectors,USED-FOR
+two,"of similarity ,",USED-FOR
+similarity and associative similarity .,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+Arabic-English,maximum entropy word alignment algorithm,USED-FOR
+supervised training data,maximum entropy word alignment algorithm,USED-FOR
+superior performance,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+Cooperative Model,natural language understanding,USED-FOR
+natural language understanding,dialogue system,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+evaluation method,paraphrases,EVALUATE-FOR
+latent variable model,evaluation method,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+methods,hardware,CONJUNCTION
+methods,integrated Spoken Language System,USED-FOR
+hardware,integrated Spoken Language System,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+image,estimating location information,USED-FOR
+automated representation learning,estimating location information,USED-FOR
+of parallel,using,USED-FOR
+,of parallel,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+weak duration constraints,HMMs,FEATURE-OF
+produce word,the,USED-FOR
+durations,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+Tree Adjoining Grammars,extended domain of locality -LRB- EDOL -RRB-,FEATURE-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,COMPARE
+,,HYPONYM-OF
+,,USED-FOR
+Identity uncertainty,real-world data analysis,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+supervised learning,human biases in summarization,USED-FOR
+unsupervised learning,supervised learning,CONJUNCTION
+unsupervised learning,human biases in summarization,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,CONJUNCTION
+parallel English and Chinese court judgments,"small , domain-specific corpus",PART-OF
+,,USED-FOR
+,,PART-OF
+,,COMPARE
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+good match between,with,USED-FOR
+,,FEATURE-OF
+algorithm,3D geometric structure of outdoor video scenes,USED-FOR
+based on predictions,are trained,USED-FOR
+.,are trained,PART-OF
+,.,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+system,marine weather forecasts,USED-FOR
+formatted weather data,system,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,FEATURE-OF
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+hierarchy of phrasal patterns,dictionary word sense definitions,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,HYPONYM-OF
+,,HYPONYM-OF
+approach,word segmentation system,USED-FOR
+approach,word breaking,USED-FOR
+approach,OOV identification,USED-FOR
+word breaking,OOV identification,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,CONJUNCTION
+method,interactively visualizing and directing the process of translating,USED-FOR
+to,weaknesses,USED-FOR
+weaknesses,and to compare it to other MT,USED-FOR
+,,COMPARE
+,,USED-FOR
+method,sense resolution,USED-FOR
+WordNet,method,USED-FOR
+WordNet,on-line lexical database,HYPONYM-OF
+semantic relations,WordNet,PART-OF
+synonymy,semantic relations,HYPONYM-OF
+synonymy,antonymy,CONJUNCTION
+antonymy,semantic relations,HYPONYM-OF
+antonymy,hyponymy,CONJUNCTION
+hyponymy,semantic relations,HYPONYM-OF
+hyponymy,meronymy,CONJUNCTION
+meronymy,semantic relations,HYPONYM-OF
+meronymy,causal and troponymic entailment,CONJUNCTION
+causal and troponymic entailment,semantic relations,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+interlingual approach,MT,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,PART-OF
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,PART-OF
+method,discourse segmentation,USED-FOR
+abduction of temporal relations,discourse segmentation,USED-FOR
+,,USED-FOR
+shallow techniques,deep processing,USED-FOR
+linguistic PoS tagger and chunker,broad coverage unification based grammar of Spanish,PART-OF
+broad coverage unification based grammar of Spanish,NLP system,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+Joint image filters,suppressing noise,USED-FOR
+Joint image filters,enhancing spatial resolution,USED-FOR
+guidance image,Joint image filters,USED-FOR
+suppressing noise,enhancing spatial resolution,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,COMPARE
+display of graphical information,cognitively well-motivated interfaces,USED-FOR
+,,USED-FOR
+manually sense-tagged data,supervised learning,USED-FOR
+SENSEVAL-2,task .,USED-FOR
+SENSEVAL-2,,USED-FOR
+,task .,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,FEATURE-OF
+,,FEATURE-OF
+quantification over events,temporal anaphora,PART-OF
+Discourse Representation Theory,temporal anaphora,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+correlation of dependency relation paths,answer extraction,USED-FOR
+corresponding relations,,USED-FOR
+,,PART-OF
+,,PART-OF
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,USED-FOR
+autonomous pipeline,personalized parametric model -LRB- pose-driven avatar -RRB-,USED-FOR
+single depth sensor,autonomous pipeline,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+algorithm,on-line interference effects,USED-FOR
+Global Navigation Satellite System -LRB- GNSS -RRB-,Inertial Navigation System -LRB- INS -RRB-,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+unified variational formulation,joint motion estimation and segmentation,USED-FOR
+explicit occlusion handling,unified variational formulation,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+approaches,monocular nonrigid 3D reconstruction,USED-FOR
+Template-based methods,approaches,HYPONYM-OF
+Template-based methods,Non-rigid Structure from Motion techniques,CONJUNCTION
+Non-rigid Structure from Motion techniques,approaches,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+image classification,computer vision applications,HYPONYM-OF
+image classification,video indexing,CONJUNCTION
+video indexing,computer vision applications,HYPONYM-OF
+multi-label classification problems,computer vision applications,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,PART-OF
+,,HYPONYM-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+convex optimization problem,segmenting sequential data,USED-FOR
+segmenting sequential data,outliers,USED-FOR
+for,two,USED-FOR
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,COMPARE
+Halliday 's systemic networks,feature-based partial descriptions,USED-FOR
+which can,the,USED-FOR
+Yoopick,combinatorial sports prediction market,HYPONYM-OF
+Yoopick,fine-grained probabilistic estimation of outcomes,USED-FOR
+flexible betting language,Yoopick,USED-FOR
+discriminative patches,unsupervised mid-level visual representation,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,EVALUATE-FOR
+algorithm,translation lexicon acquisition -LRB- SABLE -RRB-,USED-FOR
+algorithm,general translation lexicons,USED-FOR
+algorithm,domain-specific translation lexicons,USED-FOR
+computational model,word segmentation,USED-FOR
+computational model,realistic acquisition,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+model-based policy search approach,reinforcement learning -LRB- RL -RRB-,USED-FOR
+Markov decision process,policies,USED-FOR
+,.,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+computational lexicon,natural language system,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+sentence scoping,tasks,PART-OF
+syntactic structure,speech acts,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+maximum a posteriori estimation,continuous density hidden Markov models -LRB- CDHMM -RRB-,USED-FOR
+HMM with,and reestimation formulas,HYPONYM-OF
+observation densities .,and reestimation formulas,HYPONYM-OF
+observation densities .,HMM with,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,EVALUATE-FOR
+it,word-based system,COMPARE
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+method,utterance classification,USED-FOR
+to,transcription .,USED-FOR
+can be achieved using,to,PART-OF
+recognition,to,PART-OF
+recognition,can be achieved using,CONJUNCTION
+,to,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+Interval Algebra -LRB- IA -RRB-,Region Connection Calculus -LRB- RCC -RRB-,CONJUNCTION
+Interval Algebra -LRB- IA -RRB-,Artificial Intelligence approaches,HYPONYM-OF
+Region Connection Calculus -LRB- RCC -RRB-,Artificial Intelligence approaches,HYPONYM-OF
+RCC-8,Region Connection Calculus -LRB- RCC -RRB-,HYPONYM-OF
+Artificial Intelligence approaches,representing and reasoning about qualitative temporal and topological relations,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,HYPONYM-OF
+,,EVALUATE-FOR
+morphological component,derived words,USED-FOR
+,a,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,EVALUATE-FOR
+lyric,usually,CONJUNCTION
+lyric,,USED-FOR
+usually,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+algorithm,redundancy elimination problem,USED-FOR
+underspecified semantic representation -LRB- USR -RRB-,scope ambiguity,USED-FOR
+equivalent readings,USR,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+context-free phrase-structure grammar,grammatical formalisms,USED-FOR
+LFG,grammatical formalisms,HYPONYM-OF
+LFG,PATR-II,CONJUNCTION
+PATR-II,grammatical formalisms,HYPONYM-OF
+,,FEATURE-OF
+,,PART-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,COMPARE
+,,EVALUATE-FOR
+small-sized bilingual corpus,EBMT,USED-FOR
+out-of-domain bilingual corpus,EBMT,USED-FOR
+language model,EBMT,USED-FOR
+in-domain monolingual corpus,language model,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+Diagrams,complex concepts,USED-FOR
+Diagrams,relationships,USED-FOR
+Diagrams,events,USED-FOR
+complex concepts,relationships,CONJUNCTION
+relationships,events,CONJUNCTION
+,,PART-OF
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+do this well,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,COMPARE
+,,USED-FOR
+Automatic evaluation metrics,Machine Translation -LRB- MT -RRB- systems,EVALUATE-FOR
+BLEU,Automatic evaluation metrics,HYPONYM-OF
+BLEU,NIST,CONJUNCTION
+NIST,Automatic evaluation metrics,HYPONYM-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+left corner parsing algorithm,context-free grammars,USED-FOR
+used,,USED-FOR
+,,USED-FOR
+direct waveform modification,statistical singing voice conversion -LRB- SVC -RRB- technique,USED-FOR
+spectrum differential,direct waveform modification,USED-FOR
+spectrum differential,voice timbre,USED-FOR
+vocoder,converted singing voice waveforms,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+NIST Speaker Recognition Evaluations -LRB- SREs -RRB-,i-vector challenge,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,COMPARE
+,,COMPARE
+formalism,machine translation,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+of,images,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+method,blind estimation of reverberation times,USED-FOR
+reverberant enclosures,blind estimation of reverberation times,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,COMPARE
+linguistic domain,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,PART-OF
+,,PART-OF
+,,USED-FOR
+ensemble learning approach,German pronouns,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+statistical parser,parsing written and spoken language,USED-FOR
+statistical parser,generating sub-categorization cues,USED-FOR
+parsing written and spoken language,generating sub-categorization cues,CONJUNCTION
+written and spoken language,generating sub-categorization cues,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,PART-OF
+,,USED-FOR
+alignment adaptation approach,domain-specific -LRB- in-domain -RRB- word alignment,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+accuracy,part of speech -LRB- pos -RRB- tagging,EVALUATE-FOR
+newspaper text,part of speech -LRB- pos -RRB- tagging,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+framework,segmentation of complex scenes,USED-FOR
+physical hypotheses,framework,USED-FOR
+physical hypotheses,simple image regions,USED-FOR
+surfaces,color,USED-FOR
+color,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,FEATURE-OF
+,,COMPARE
+SmartKom,multimodal dialog system,HYPONYM-OF
+speech,multimodal dialog system,USED-FOR
+speech,gesture,CONJUNCTION
+gesture,multimodal dialog system,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+single-image highlight removal method,image in-painting,USED-FOR
+illumination-based constraints,image in-painting,PART-OF
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+method,"spatially localized , parts-based subspace representation of visual patterns",USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+machine learning techniques,comma checker,USED-FOR
+comma checker,grammar checker,PART-OF
+grammar checker,Basque,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+language corpus annotation scenario,discourse relations,USED-FOR
+Czech,discourse relations,FEATURE-OF
+,Discourse Treebank 2 .,USED-FOR
+,,CONJUNCTION
+,Discourse Treebank 2 .,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+Regression-based techniques,people counting in crowded scenes,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+Representing images with layers,applications,USED-FOR
+video compression,applications,HYPONYM-OF
+video compression,motion analysis,CONJUNCTION
+motion analysis,applications,HYPONYM-OF
+motion analysis,3D scene analysis,CONJUNCTION
+3D scene analysis,applications,HYPONYM-OF
+form,linear,USED-FOR
+linear,.,PART-OF
+,,PART-OF
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+non-experimental data,construction of causal graphs,USED-FOR
+probability distributions,graph,FEATURE-OF
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,USED-FOR
+,,COMPARE
+,,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+social media,animated GIFs,FEATURE-OF
+,120K natural language,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,PART-OF
+,,PART-OF
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+Systemic grammar,AI text generation,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+solution,automatic and unsupervised word sense induction -LRB- WSI -RRB-,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+natural language system,ungrammatical input,USED-FOR
+it,computer aided second language learning,USED-FOR
+of,of,USED-FOR
+frequency components,measurable signals,USED-FOR
+frequency components,rotational speed of the engine,FEATURE-OF
+vibrations,measurable signals,HYPONYM-OF
+vibrations,electrical system voltage level,CONJUNCTION
+electrical system voltage level,measurable signals,HYPONYM-OF
+electrical system voltage level,ambient sound,CONJUNCTION
+ambient sound,measurable signals,HYPONYM-OF
+,,USED-FOR
+,,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+bit rates,LPC based speech coders,FEATURE-OF
+buzzy or metallic artefacts,synthetic speech,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+instantaneous linear mixtures,blind source separation,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+Deep Neural Network -LRB- DNN -RRB- stacked bottleneck features,multilingual feature-level data sharing,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+bidirectional grammar generation system,dialogue translation system,USED-FOR
+feature structure-directed generation,bidirectional grammar generation system,HYPONYM-OF
+feature structure-directed generation,dialogue translation system,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+Automatic image annotation,semantic image retrieval,USED-FOR
+text descriptions,semantic image retrieval,USED-FOR
+,.,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,FEATURE-OF
+,,HYPONYM-OF
+,,COMPARE
+object category detection datasets,per-object 3D reconstructions,USED-FOR
+ground truth figure-ground segmentations,per-object 3D reconstructions,USED-FOR
+ground truth figure-ground segmentations,keypoint annotations,CONJUNCTION
+keypoint annotations,per-object 3D reconstructions,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+Probabilistic models,modeling and recognition of human motion,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,FEATURE-OF
+,,CONJUNCTION
+,,CONJUNCTION
+Factor analysis,principal components analysis,CONJUNCTION
+Factor analysis,linear relationships between observed variables,USED-FOR
+principal components analysis,linear relationships between observed variables,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,HYPONYM-OF
+,,COMPARE
+,,CONJUNCTION
+domain independent strategy,multimedia articulation of answers,USED-FOR
+multimedia articulation of answers,natural language interface,USED-FOR
+natural language interface,database query applications,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,FEATURE-OF
+LOGON MT demonstrator,general-purpose NLP components,USED-FOR
+general-purpose NLP components,machine translation pipeline,PART-OF
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+give,Hilbert,CONJUNCTION
+give,for this language .,FEATURE-OF
+Hilbert,for this language .,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+Image matching,Computer Vision,HYPONYM-OF
+array,in a,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+paraphrasing,interpretation and generation of natural language,USED-FOR
+systems,paraphrases,USED-FOR
+manual or semi-automatic methods,systems,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+bit-vector-based CKY-style parser,context-free parsing,USED-FOR
+of,large treebank grammars,USED-FOR
+large treebank grammars,,USED-FOR
+,,USED-FOR
+partially-blurred-image classification and analysis framework,automatically detecting images,USED-FOR
+blurred regions,images,PART-OF
+blur kernel estimation,image deblurring,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+and,-LRB- Roget 's,HYPONYM-OF
+and,,CONJUNCTION
+Encyclopedia -RRB-,and,EVALUATE-FOR
+,-LRB- Roget 's,HYPONYM-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,EVALUATE-FOR
+embedding methods,segmenting feature points of piece-wise planar structures,USED-FOR
+,bilinear,FEATURE-OF
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+,,FEATURE-OF
+Background maintenance,video surveillance systems,PART-OF
+filtering to,probabilistic predictions,USED-FOR
+expected background,filtering to,PART-OF
+expected background,the frame-level,CONJUNCTION
+the region-level,expected background,USED-FOR
+the region-level,in homogeneous regions of foreground objects,USED-FOR
+the frame-level,filtering to,PART-OF
+the frame-level,"sudden , global changes in",USED-FOR
+the frame-level,swaps in,CONJUNCTION
+swaps in,filtering to,PART-OF
+,,COMPARE
+,,COMPARE
+,,USED-FOR
+out-of-domain acoustic training data,speech recognizer,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+approach,full parsing,USED-FOR
+full parsing,Information Extraction,USED-FOR
+,,USED-FOR
+,,PART-OF
+the system,of the graphic,USED-FOR
+,,USED-FOR
+,,USED-FOR
+Graphical models,computer vision problems,USED-FOR
+Bayesian Networks -LRB- BNs -RRB-,Graphical models,HYPONYM-OF
+,difficult to acquire,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,COMPARE
+,,PART-OF
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+modal language LT,constraints on trees,USED-FOR
+extension LT -LRB- LF -RRB-,constraints on trees decorated with feature structures,USED-FOR
+.,,USED-FOR
+,,USED-FOR
+clustering,inducing semantic verb classes,USED-FOR
+undisambiguated corpus data,clustering,USED-FOR
+,.,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+pan-tilt-zoom -LRB- PTZ -RRB- cameras,panoramic area,USED-FOR
+pan-tilt-zoom -LRB- PTZ -RRB- cameras,high resolution imagery,USED-FOR
+PTZ cameras,automated surveillance systems,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,FEATURE-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,FEATURE-OF
+,,FEATURE-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+two-pass algorithm,Extra Large -LRB- more than 1M words -RRB- Vocabulary COntinuous Speech recognition,USED-FOR
+Information Retrieval -LRB- ELVIRCOS -RRB-,two-pass algorithm,USED-FOR
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+uniform color and,regions with,CONJUNCTION
+to detect structures in the,"properties ,",USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+framework,word alignment,USED-FOR
+log-linear models,framework,USED-FOR
+source langauge,target language,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+Hough voting,spatial verification,USED-FOR
+geometric transformation space,Hough voting,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+bispectral photo-metric stereo,shape reconstruction,USED-FOR
+fluorescence,bispectral photo-metric stereo,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+approach,visual representation,USED-FOR
+raw spatiotemporal signals in videos,visual representation,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,EVALUATE-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+explanation system,discourse plans,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,EVALUATE-FOR
+cognito-pragmatic nature,operable definition,FEATURE-OF
+,,HYPONYM-OF
+,,USED-FOR
+,,PART-OF
+,,HYPONYM-OF
+as,",",USED-FOR
+,as,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+Interpreting metaphors,human understanding of natural language,HYPONYM-OF
+mappings,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,PART-OF
+,,CONJUNCTION
+,,CONJUNCTION
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+bilingual corpora,method to automatically acquire paraphrases,USED-FOR
+bilingual dependency relations,method to automatically acquire paraphrases,USED-FOR
+monolingual dependency parse,bilingual dependency relations,USED-FOR
+statistical alignment techniques,bilingual dependency relations,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+Stabler 's formalization of Chomsky 's minimalist program,logical definition of Minimalist grammars,HYPONYM-OF
+a parsing-as-deduction,based on,USED-FOR
+type-unification,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+approaches,information extraction,USED-FOR
+information extraction,token classification task,HYPONYM-OF
+tagging strategies,token classification task,USED-FOR
+,,COMPARE
+text,,USED-FOR
+,text,PART-OF
+,text,PART-OF
+,text,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+,,FEATURE-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+conditions are reported .,WSJ and,EVALUATE-FOR
+,WSJ and,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+co-occurrence pattern,"object , scene , and action recognition",USED-FOR
+binary or local features,co-occurrence pattern,PART-OF
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,COMPARE
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+classifiers,language processing tasks,USED-FOR
+maximum entropy classifiers,classifiers,HYPONYM-OF
+maximum entropy classifiers,boosting,CONJUNCTION
+boosting,classifiers,HYPONYM-OF
+boosting,SVMs,CONJUNCTION
+SVMs,classifiers,HYPONYM-OF
+,,HYPONYM-OF
+,,COMPARE
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+Discourse Representation Theory,French tenses,USED-FOR
+it,IMS,USED-FOR
+,,USED-FOR
+in,of the preceeding text,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,USED-FOR
+,,COMPARE
+electronic discussions,help-desk applications,PART-OF
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,HYPONYM-OF
+method,word sense disambiguation,USED-FOR
+parallel corpora,method,USED-FOR
+of,supported by,USED-FOR
+of,aligned wordnets,USED-FOR
+supported by,aligned wordnets,CONJUNCTION
+languages in the corpus .,of,USED-FOR
+,of,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+images,projective reconstruction,USED-FOR
+,,FEATURE-OF
+Natural Language Processing -LRB- NLP -RRB- system,new domain,USED-FOR
+grammar,idiosyncracies of the new sublanguage,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+method,relations between representations,USED-FOR
+feature structures,relations between representations,USED-FOR
+approach,method,COMPARE
+,,FEATURE-OF
+distributed message-passing infrastructure,dialogue systems,USED-FOR
+limited-memory stochastic block BFGS update,incorporating enriched curvature information in stochastic approximation methods,USED-FOR
+compressed,"Hessian , i.e.",USED-FOR
+,compressed,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+spoken language system,interactive problem solving,USED-FOR
+voice input,interactive problem solving,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+Spelling-checkers,text processing software,PART-OF
+,.,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+unsupervised and supervised case,it,EVALUATE-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+non-uniform sampling strategies,stochastic optimization algorithms,USED-FOR
+linear convergence,stochastic optimization algorithms,FEATURE-OF
+Stochastic Variance Reduced Gradient -LRB- SVRG -RRB-,stochastic optimization algorithms,HYPONYM-OF
+Stochastic Variance Reduced Gradient -LRB- SVRG -RRB-,Stochastic Dual Coordinate Ascent -LRB- SDCA -RRB-,CONJUNCTION
+Stochastic Dual Coordinate Ascent -LRB- SDCA -RRB-,stochastic optimization algorithms,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+task,morphologically rich languages,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+user modeling,cooperative responses,USED-FOR
+user modeling,spoken dialogue systems,PART-OF
+more,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+method,building polarity-tagged corpus,USED-FOR
+HTML documents,method,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+monolingual parallel corpora,paraphrases,USED-FOR
+,available,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,PART-OF
+software,domain-independent means of evaluating Spoken Language Systems -LRB- SLS -RRB-,PART-OF
+software,specifications,CONJUNCTION
+specifications,domain-independent means of evaluating Spoken Language Systems -LRB- SLS -RRB-,PART-OF
+specifications,answer expressions,USED-FOR
+,,USED-FOR
+unsupervised learning method,associative relationships between verb phrases,USED-FOR
+associative relationships between verb phrases,Q&A systems,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+text data,language models,USED-FOR
+web,text data,FEATURE-OF
+language models,Automatic Speech Recognition,USED-FOR
+language models,Keyword Search,USED-FOR
+Automatic Speech Recognition,Keyword Search,CONJUNCTION
+Low Resource Languages,Automatic Speech Recognition,USED-FOR
+Low Resource Languages,Keyword Search,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+architectural modules,language functionalities,USED-FOR
+referring expressions,language functionalities,HYPONYM-OF
+referring expressions,lexical choice,CONJUNCTION
+lexical choice,language functionalities,HYPONYM-OF
+lexical choice,revision,CONJUNCTION
+revision,language functionalities,HYPONYM-OF
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,EVALUATE-FOR
+system,scenes descriptions in natural language,USED-FOR
+",",analyzer,PART-OF
+Dependency Theory,",",PART-OF
+Dependency Theory,,CONJUNCTION
+.,Dependency Theory,USED-FOR
+,",",PART-OF
+,,CONJUNCTION
+,,USED-FOR
+,",",PART-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,COMPARE
+,,PART-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,HYPONYM-OF
+model,class of languages,USED-FOR
+reduplication,context-free languages,USED-FOR
+new,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+unsupervised clustering,image set classification algorithm,USED-FOR
+labeled training and unla-beled test data,unsupervised clustering,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+computational problems,probabilistic translation models,FEATURE-OF
+probabilistic translation models,machine translation,USED-FOR
+,,FEATURE-OF
+Active shape models,complex image data,USED-FOR
+,and gainful way .,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+statistical techniques,ranking,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,HYPONYM-OF
+,,COMPARE
+,,PART-OF
+structured dictionary,editor,USED-FOR
+valid,,USED-FOR
+,,USED-FOR
+domain specific terms,internal and contextual information,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+method,systematic patterns in translation data,USED-FOR
+part-of-speech tag sequences,method,USED-FOR
+our,be used,PART-OF
+be used,patterns in machine,USED-FOR
+,,USED-FOR
+number of hidden layers,multilayer neu-ral network,USED-FOR
+threshold units,number of hidden layers,USED-FOR
+,,HYPONYM-OF
+approach,"intrinsic texture properties -LRB- albedo , shading , normal -RRB- of scenes",USED-FOR
+multiple view acquisition,"intrinsic texture properties -LRB- albedo , shading , normal -RRB- of scenes",USED-FOR
+unknown illumination conditions,multiple view acquisition,FEATURE-OF
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+automatic evaluation,machine translation,EVALUATE-FOR
+automatic evaluation,document summarization,EVALUATE-FOR
+machine translation,document summarization,CONJUNCTION
+measure,approach,USED-FOR
+measure,automatically evaluating answers to definition questions,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,COMPARE
+Automatic Speech Recognition technology,dialog systems,USED-FOR
+,,PART-OF
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+raw text in French,tool,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+,,FEATURE-OF
+,,FEATURE-OF
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+,,CONJUNCTION
+,,COMPARE
+,,COMPARE
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+document oriented preference sets -LRB- DoPS -RRB-,disambiguation of the dependency structure,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,FEATURE-OF
+parsing,Multimodal interfaces,USED-FOR
+a,compose inputs,USED-FOR
+,compose inputs,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+SUMMIT,phonetically-based spoken language understanding system,HYPONYM-OF
+mathematical tools,within a,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+tagged text corpus,program,EVALUATE-FOR
+method,relative pose of two calibrated or uncalibrated non-overlapping surveillance cameras,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+human action recognition system,embedded computer vision applications,USED-FOR
+embedded computer vision applications,security systems,USED-FOR
+embedded computer vision applications,human-computer interaction,USED-FOR
+embedded computer vision applications,intelligent environments,USED-FOR
+security systems,human-computer interaction,CONJUNCTION
+human-computer interaction,intelligent environments,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+uniform processing,model of grammatical processing,USED-FOR
+knowledge sources,model of grammatical processing,USED-FOR
+knowledge sources,uniform processing,CONJUNCTION
+,,CONJUNCTION
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,USED-FOR
+Link detection,Topic Detection and Tracking tasks of new event detection,USED-FOR
+both systems .,,CONJUNCTION
+both systems .,,HYPONYM-OF
+,,HYPONYM-OF
+,both systems .,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+psy-chophysical and machine learning techniques,visual classification,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,COMPARE
+corpus-based supervised word sense disambiguation -LRB- WSD -RRB- system,Dutch,USED-FOR
+statistical classification,corpus-based supervised word sense disambiguation -LRB- WSD -RRB- system,PART-OF
+maximum entropy,corpus-based supervised word sense disambiguation -LRB- WSD -RRB- system,PART-OF
+linguistic information,corpus-based supervised word sense disambiguation -LRB- WSD -RRB- system,PART-OF
+linguistic information,maximum entropy,CONJUNCTION
+,,COMPARE
+,,USED-FOR
+,,FEATURE-OF
+,,COMPARE
+,,EVALUATE-FOR
+coarse-to-fine energy minimization strategy,semantic video segmenta-tion,USED-FOR
+level of the hierarchy by minimizing,energy,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,COMPARE
+ensemble methods,machine learning,USED-FOR
+ensemble methods,natural language processing,USED-FOR
+multi-strategy and multi-source approach,question answering,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+Word Identification,Chinese Natural Language Processing,HYPONYM-OF
+",",,USED-FOR
+newspapers,",",USED-FOR
+,,HYPONYM-OF
+,",",USED-FOR
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+Paul,computer text generation system,HYPONYM-OF
+computer text generation system,cohesive text,USED-FOR
+lexical substitutions,Paul,USED-FOR
+,,COMPARE
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+framework,online multiclass learning,USED-FOR
+notion of hypothesis sharing,framework,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+supervised machine learning,statistical models of WH-questions,USED-FOR
+.,represent,USED-FOR
+labeled directed graph,linguistic structures,USED-FOR
+labeled directed graph,NLP tasks,USED-FOR
+this,NLP tasks,USED-FOR
+using,-RRB-,USED-FOR
+,using,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+linguistic information,ambiguity,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,COMPARE
+,,EVALUATE-FOR
+,,USED-FOR
+machine-readable resources,word-sense ambiguity,USED-FOR
+machine-readable resources,construction of large-scale knowledge sources,USED-FOR
+resulting,97.9 %,EVALUATE-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+TIPSTER Architecture,text applications,USED-FOR
+common text processing modules,text applications,USED-FOR
+the TIPSTER,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,HYPONYM-OF
+,,PART-OF
+Lagrangian Particle Dynamics,segmentation of high density crowd flows,USED-FOR
+Lagrangian Particle Dynamics,detection of flow instabilities,USED-FOR
+segmentation of high density crowd flows,detection of flow instabilities,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,PART-OF
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+,,USED-FOR
+evaluation measures,machine translation,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,COMPARE
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+Rete and Treat algorithms,implementation techniques,HYPONYM-OF
+Rete and Treat algorithms,Forward Chaining rule systems,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+method,error correction,USED-FOR
+ill-formed input,error correction,USED-FOR
+,,USED-FOR
+,,USED-FOR
+linear Fukunaga-Koontz Transform -LRB- FKT -RRB-,discriminative subspaces building approach,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,USED-FOR
+between,of entailment,COMPARE
+of entailment,"asymmetric ,",USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+shape matching problem,point cloud matching,USED-FOR
+shape representation,point clouds,USED-FOR
+Schrödinger distance transform -LRB- SDT -RRB- representation,shape representation,HYPONYM-OF
+,,HYPONYM-OF
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+natural language processing,trend survey on Japanese natural language processing studies,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+ontology,system,USED-FOR
+,,USED-FOR
+dialogue management,information navigation system,USED-FOR
+document knowledge base,information navigation system,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,FEATURE-OF
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+annotating scheme,honorifics,USED-FOR
+honorifics,respectful words,HYPONYM-OF
+ranks,the,USED-FOR
+,,USED-FOR
+,,USED-FOR
+distributed neural networks,Visually-guided arm reaching movements,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,FEATURE-OF
+base classifiers,ensemble,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+algorithm,dimensional container packing problem,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+approaches,object category recognition,USED-FOR
+datasets,approaches,USED-FOR
+on,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,COMPARE
+,,USED-FOR
+speech processing,Human-Machine Communication,CONJUNCTION
+Natural Language Processing,Human-Machine Communication,HYPONYM-OF
+Natural Language Processing,Non Verbal and Multimodal Communication,CONJUNCTION
+Non Verbal and Multimodal Communication,Human-Machine Communication,HYPONYM-OF
+lookup table representations,analytical expressions,USED-FOR
+pronominal anaphora resolution module,Lucy,PART-OF
+Lucy,English understanding system,HYPONYM-OF
+general and domain corpora,unsupervised automatic acquisition of Italian and English verb subcategorization frames -LRB- SCFs -RRB-,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+Graph-cuts optimization,vision and graphics problems,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+Intersection-over-Union -LRB- IoU -RRB- measure,evaluation function,HYPONYM-OF
+Intersection-over-Union -LRB- IoU -RRB- measure,image segmentation systems,EVALUATE-FOR
+,candidate solutions,HYPONYM-OF
+,candidate solutions,HYPONYM-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,HYPONYM-OF
+transfer phase,machine translation -LRB- MT -RRB- systems,PART-OF
+transfer phase,analysis,COMPARE
+transfer phase,generation,COMPARE
+analysis,generation,CONJUNCTION
+,,USED-FOR
+,,HYPONYM-OF
+,,USED-FOR
+optimal alignment of non-rigid surfaces,temporally consistent representation,USED-FOR
+multi-view video observations,optimal alignment of non-rigid surfaces,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+MT architectural designs,translation of English text into American Sign Language -LRB- ASL -RRB- animation,USED-FOR
+. '',,USED-FOR
+,. '',USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,PART-OF
+,,PART-OF
+GPSG grammatical formalism,extension,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+approach,localizing functional objects,USED-FOR
+surveillance videos,localizing functional objects,USED-FOR
+semantic object classes,domain knowledge,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+process model,hierarchical perceptual sound organization,USED-FOR
+perceptual sounds,incoming sound signals,PART-OF
+,,USED-FOR
+,,FEATURE-OF
+,,PART-OF
+,,CONJUNCTION
+,,PART-OF
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+word sense disambigation models,statistical machine translation quality,USED-FOR
+alone .,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+Image sequence processing techniques,"exchange , growth , and transport processes",USED-FOR
+environmental physics,biology,CONJUNCTION
+field,dynamical changes of the moving,EVALUATE-FOR
+dynamical changes of the moving,of,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,CONJUNCTION
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,FEATURE-OF
+,,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,CONJUNCTION
+Czech-English statistical machine translation system,tree-to-tree translation of dependency structures,USED-FOR
+,,USED-FOR
+,,COMPARE
+Japanese,spatial descriptions,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,COMPARE
+,,EVALUATE-FOR
+,,EVALUATE-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+speaker DOA estimation accuracy,mobile speech application,FEATURE-OF
+speaker DOA estimation accuracy,interference robustness,CONJUNCTION
+interference robustness,mobile speech application,FEATURE-OF
+interference robustness,compact physical size,CONJUNCTION
+compact physical size,mobile speech application,FEATURE-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,HYPONYM-OF
+,,CONJUNCTION
+,,HYPONYM-OF
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+morphological component,NLP-system for Dutch -LRB- Dutch Medical Language Processor - DMLP -RRB-,PART-OF
+language independent modules,LSP-MLP system -LRB- Linguistic String Project - Medical Language Processor -RRB-,PART-OF
+,,USED-FOR
+,,USED-FOR
+,,PART-OF
+,,USED-FOR
+,,USED-FOR
+essay-based discourse elements,CriterionSM Online Essay Evaluation Service,PART-OF
+thesis statements,essay-based discourse elements,HYPONYM-OF
+,,USED-FOR
+,,EVALUATE-FOR
+,,USED-FOR
+,,USED-FOR
+,,USED-FOR
+,,CONJUNCTION
+,,USED-FOR
+,,USED-FOR
+,,EVALUATE-FOR
+,,COMPARE
+algorithm,labeling curvilinear structure,USED-FOR
+line drawings,labeling curvilinear structure,FEATURE-OF
+line drawings,edge images,CONJUNCTION
+edge images,labeling curvilinear structure,FEATURE-OF
+CURVE-ELEMENT tokens,spatially-indexed and scale-indexed data structure,PART-OF
