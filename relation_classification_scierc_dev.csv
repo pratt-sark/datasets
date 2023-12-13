@@ -1,0 +1,456 @@
+entity1,entity2,relation_type
+algorithm,"computing optical flow , shape , motion , lighting , and albedo",USED-FOR
+image sequence,algorithm,USED-FOR
+rigidly-moving Lambertian object,image sequence,FEATURE-OF
+distant illumination,rigidly-moving Lambertian object,FEATURE-OF
+motion,multi-view stereo,CONJUNCTION
+multi-view stereo,photo-metric stereo,CONJUNCTION
+spatial and temporal intensity variation,algorithm,USED-FOR
+former,cues,HYPONYM-OF
+former,flow,USED-FOR
+former,latter,CONJUNCTION
+latter,cues,HYPONYM-OF
+latter,surface orientation,USED-FOR
+cues,dense reconstruction of both textured and texture-less surfaces,USED-FOR
+"estimating affine camera parameters , illumination , shape , and albedo",algorithm,USED-FOR
+entity-oriented approach,restricted-domain parsing,USED-FOR
+this,limited domain semantics,USED-FOR
+it,fragmentary recognition,USED-FOR
+it,multiple parsing strategies,USED-FOR
+multiple parsing strategies,recognition of extra-grammatical input,USED-FOR
+control structure,entity-oriented parser,USED-FOR
+control structure,parsing strategies,USED-FOR
+control structure,parser,PART-OF
+parsing algorithms,it,USED-FOR
+restrictive statements,syntactic descriptions,FEATURE-OF
+algorithms,CCR formalism,USED-FOR
+context free languages,algorithms,USED-FOR
+logical well-formedness conditions,trees,FEATURE-OF
+text mining method,synonymous expressions,USED-FOR
+distributional hypothesis,text mining method,USED-FOR
+accuracy,term aggregation system,EVALUATE-FOR
+term aggregation system,methodology,EVALUATE-FOR
+accuracy,term aggregation system,EVALUATE-FOR
+term aggregation system,method,EVALUATE-FOR
+technique,robust estimation,USED-FOR
+technique,efficient robust estimation algorithm,USED-FOR
+inherent uncertainty of the estimation procedure,technique,USED-FOR
+strategies,robust estimation procedure,USED-FOR
+RANSAC techniques,robust estimation procedure,COMPARE
+algorithm,RANSAC,COMPARE
+geometric estimation problems,algorithm,EVALUATE-FOR
+Augmented Transition Network,dialog model,HYPONYM-OF
+dialog schemata,device,USED-FOR
+dialog schemata,conversation analysis,USED-FOR
+models,device,USED-FOR
+models,verbal interaction,USED-FOR
+dialog schemata,verbal interaction,CONJUNCTION
+ATN,verbal interactions,USED-FOR
+verbal interactions,task-oriented dialogs,FEATURE-OF
+unsupervised learning method,single-snippet answers,USED-FOR
+question answering systems,Web search engines,USED-FOR
+method,on-line encyclopedias and dictionaries,USED-FOR
+on-line encyclopedias and dictionaries,positive and negative definition examples,USED-FOR
+positive and negative definition examples,svm,USED-FOR
+it,alternative,COMPARE
+news articles,system,USED-FOR
+news articles,trec,PART-OF
+it,search engine,USED-FOR
+statistical learning perspective,classical decision-theoretic problem of weighted expert voting,USED-FOR
+sharp error estimates,optimal rule,USED-FOR
+reweighted version of the Kikuchi approximation,log partition function of a product distribution,USED-FOR
+log partition function of a product distribution,region graph,FEATURE-OF
+concavity,reweighted objective function,FEATURE-OF
+reweighted version of the sum product algorithm,Kikuchi region graph,USED-FOR
+global optima,Kikuchi approximation,FEATURE-OF
+cycle structure,region graph,FEATURE-OF
+decision tree based approach,pronoun resolution,USED-FOR
+pronoun resolution,spoken dialogue,USED-FOR
+system,pronouns,USED-FOR
+NP - and non-NP-antecedents,pronouns,USED-FOR
+features,pronoun resolution,USED-FOR
+pronoun resolution,spoken dialogue,USED-FOR
+Switchboard dialogues,system,EVALUATE-FOR
+it,Byron 's -LRB- 2002 -RRB- manually tuned system,COMPARE
+approach,classifier,USED-FOR
+classifier,class problem,USED-FOR
+estimation stage,approach,PART-OF
+estimation stage,classification stage,CONJUNCTION
+classification stage,approach,PART-OF
+classifier,object poses,USED-FOR
+time complexity,algorithm,EVALUATE-FOR
+boosted combination of Random Ferns,classifier,USED-FOR
+local histograms of oriented gradients -LRB- HOGs -RRB-,boosted combination of Random Ferns,FEATURE-OF
+pre-processing step,local histograms of oriented gradients -LRB- HOGs -RRB-,USED-FOR
+supervised learning,approach,USED-FOR
+gradient space,approach,USED-FOR
+motorbikes under planar rotations,database,FEATURE-OF
+conditions,database,FEATURE-OF
+cluttered backgrounds,conditions,HYPONYM-OF
+cluttered backgrounds,changing illumination conditions,CONJUNCTION
+changing illumination conditions,conditions,HYPONYM-OF
+changing illumination conditions,partial occlusions,CONJUNCTION
+partial occlusions,conditions,HYPONYM-OF
+duration model,triphone and semiphone systems,USED-FOR
+error rate,triphone and semiphone systems,EVALUATE-FOR
+rapid adaptation technique,training strategy,USED-FOR
+bigram back-off language models,recognizer,USED-FOR
+system,RM task,USED-FOR
+system,ATIS CSR task,USED-FOR
+RM task,ATIS CSR task,CONJUNCTION
+approach,Interactive Machine Translation,USED-FOR
+paraphrasing,interactive disambiguation scheme,USED-FOR
+approach,statistical machine translation,USED-FOR
+syntactic information,approach,PART-OF
+syntactic information,phrasal translation,CONJUNCTION
+phrasal translation,approach,PART-OF
+source-language dependency parser,method,USED-FOR
+source-language dependency parser,target language word segmentation,CONJUNCTION
+target language word segmentation,method,USED-FOR
+target language word segmentation,unsupervised word alignment component,CONJUNCTION
+unsupervised word alignment component,method,USED-FOR
+tree-based models,SMT models,CONJUNCTION
+tree-based models,approach,USED-FOR
+SMT models,approach,USED-FOR
+phrasal SMT,linguistic generality,CONJUNCTION
+phrasal SMT,parser,USED-FOR
+linguistic generality,parser,FEATURE-OF
+visual cues,Video,FEATURE-OF
+motion,visual cues,HYPONYM-OF
+motion,appearance,CONJUNCTION
+appearance,visual cues,HYPONYM-OF
+intermediate-level video representation,recognition,USED-FOR
+long-range motion cues,spatio-temporal video segmentation algorithm,USED-FOR
+clusters of point tracks,long-range motion cues,USED-FOR
+occlusion reasoning,track clustering cost function,PART-OF
+depth ordering constraints,occlusion reasoning,FEATURE-OF
+motion similarity,track clustering cost function,PART-OF
+video sequences of office scenes,approach,EVALUATE-FOR
+KAZE features,multiscale 2D feature detection and description algorithm,HYPONYM-OF
+nonlinear scale spaces,multiscale 2D feature detection and description algorithm,FEATURE-OF
+nonlinear scale space,2D features,FEATURE-OF
+nonlinear diffusion filtering,2D features,USED-FOR
+Additive Operator Splitting -LRB- AOS -RRB- techniques,nonlinear scale space,USED-FOR
+Additive Operator Splitting -LRB- AOS -RRB- techniques,variable con-ductance diffusion,CONJUNCTION
+variable con-ductance diffusion,nonlinear scale space,USED-FOR
+features,SURF,COMPARE
+features,SIFT,COMPARE
+results,state-of-the-art methods,COMPARE
+detection,results,EVALUATE-FOR
+detection,description,CONJUNCTION
+detection,state-of-the-art methods,EVALUATE-FOR
+description,results,EVALUATE-FOR
+description,state-of-the-art methods,EVALUATE-FOR
+Creating summaries,identification of the corresponding entity,USED-FOR
+lengthy Semantic Web documents,Creating summaries,USED-FOR
+diversity,diversified -LRB- faceted -RRB- summaries,FEATURE-OF
+diversity,uniqueness,CONJUNCTION
+uniqueness,diversified -LRB- faceted -RRB- summaries,FEATURE-OF
+uniqueness,popularity,CONJUNCTION
+popularity,diversified -LRB- faceted -RRB- summaries,FEATURE-OF
+human conceptual clustering techniques,diversity-aware entity summarization approach,USED-FOR
+approach,entity summarization,USED-FOR
+state-of-the-art techniques,approach,COMPARE
+state-of-the-art techniques,entity summarization,USED-FOR
+quality,entity summarization,EVALUATE-FOR
+efficiency,entity summarization,EVALUATE-FOR
+framework,fast computation of lexical affinity models,USED-FOR
+algorithm,framework,PART-OF
+algorithm,co-occurrence distribution,USED-FOR
+algorithm,independence model,CONJUNCTION
+independence model,framework,PART-OF
+independence model,parametric affinity model,CONJUNCTION
+parametric affinity model,framework,PART-OF
+lexical affinity,sequential models,USED-FOR
+models,models,COMPARE
+models,co-occurrence patterns,USED-FOR
+it,natural language tests,USED-FOR
+terabyte corpus,it,EVALUATE-FOR
+system,categorizing unknown words,USED-FOR
+multi-component architecture,system,USED-FOR
+component,multi-component architecture,PART-OF
+component,unknown words,USED-FOR
+components,names,USED-FOR
+components,spelling errors,USED-FOR
+names,spelling errors,CONJUNCTION
+decision tree architecture,component,USED-FOR
+live closed captions,system,EVALUATE-FOR
+CCLINC -LRB- Common Coalition Language System at Lincoln Laboratory -RRB-,Korean-to-English machine translation system,HYPONYM-OF
+core modules,CCLINC Korean-to-English translation system,PART-OF
+language neutral meaning representation,language understanding and generation modules,USED-FOR
+semantic frame,language neutral meaning representation,HYPONYM-OF
+Korean,verb final language,HYPONYM-OF
+overt case markers,verb final language,FEATURE-OF
+word sense disambiguation,translation,USED-FOR
+word sense disambiguation,word order generation,CONJUNCTION
+word order generation,translation,USED-FOR
+Korean newspaper articles,system,USED-FOR
+missiles and chemical biological warfare,Korean newspaper articles,FEATURE-OF
+JAVELIN system,open-domain question answering capability,USED-FOR
+planning-based architecture,JAVELIN system,PART-OF
+language processing modules,JAVELIN system,PART-OF
+language processing modules,planning-based architecture,CONJUNCTION
+head-driven statistical parsing model,simultaneous language model,USED-FOR
+head-driven statistical parsing model,parser,USED-FOR
+simultaneous language model,parser,CONJUNCTION
+simultaneous language model,large-vocabulary speech recognition,USED-FOR
+parser,large-vocabulary speech recognition,USED-FOR
+model,online left to right chart-parser,USED-FOR
+online left to right chart-parser,word lattices,USED-FOR
+"acoustic , n-gram , and parser probabilities",online left to right chart-parser,PART-OF
+structural and lexical dependencies,parser,USED-FOR
+Wall Street Journal treebank,lattice corpora,CONJUNCTION
+Wall Street Journal treebank,n-gram language model,EVALUATE-FOR
+lattice corpora,n-gram language model,EVALUATE-FOR
+word error rates,n-gram language model,EVALUATE-FOR
+structural information,speech understanding,USED-FOR
+Image composition -LRB- or mosaicing -RRB-,video analysis and representation,PART-OF
+global alignment,super-resolution,CONJUNCTION
+amount of blurring,mosaic,EVALUATE-FOR
+graph-based technique,Global registration,USED-FOR
+graph-based technique,topological structure,USED-FOR
+graph-based technique,bundle adjustment,CONJUNCTION
+bundle adjustment,Global registration,USED-FOR
+homographies,bundle adjustment,USED-FOR
+approach,techniques,COMPARE
+Polish,computer-assisted acquisition and morpho-syntactic description of verb-noun collocations,USED-FOR
+dictionary-based acquisition of collocation lexicon,phases,HYPONYM-OF
+dictionary-based acquisition of collocation lexicon,feasibility study,CONJUNCTION
+feasibility study,phases,HYPONYM-OF
+feasibility study,corpus-based lexicon enlargement phase,USED-FOR
+corpus-based lexicon enlargement and collocation description,phases,HYPONYM-OF
+corpus-based lexicon enlargement and collocation description,feasibility study,CONJUNCTION
+corpus-based approach,verb-noun collocation dictionary,USED-FOR
+Polish,verb-noun collocation dictionary,FEATURE-OF
+hash-tag recommendation task,microblogs,USED-FOR
+convolutional neural networks -LRB- CNNs -RRB-,natural language processing tasks,USED-FOR
+architecture,trigger words,USED-FOR
+attention mechanism,architecture,FEATURE-OF
+data,model,EVALUATE-FOR
+model,state-of-the-art methods,COMPARE
+method,state-of-the-art method,COMPARE
+F1-score,state-of-the-art method,EVALUATE-FOR
+Expectation-Maximization -LRB- EM -RRB- algorithm,unsupervised learning method,USED-FOR
+Expectation-Maximization -LRB- EM -RRB- algorithm,text classification problems,USED-FOR
+it,word sense disambiguation -LRB- WSD -RRB- problems,USED-FOR
+Japanese Dictionary Task,SENSEVAL2,FEATURE-OF
+methods,verb WSD problems,USED-FOR
+Dividing sentences in chunks of words,parsing,USED-FOR
+Dividing sentences in chunks of words,information extraction,USED-FOR
+Dividing sentences in chunks of words,information retrieval,USED-FOR
+parsing,information extraction,CONJUNCTION
+information extraction,information retrieval,CONJUNCTION
+data representation,chunking,USED-FOR
+data representations,recognizing noun phrase chunks,USED-FOR
+data representation,memory-based learning chunker,USED-FOR
+data set,memory-based learning chunker,EVALUATE-FOR
+system,FAQ-like questions and answers,USED-FOR
+noisy-channel architecture,system,USED-FOR
+noisy-channel architecture,language model,USED-FOR
+noisy-channel architecture,transformation model,USED-FOR
+measures of speech,intelligibility prediction,EVALUATE-FOR
+synthesized speech,intelligibility prediction,USED-FOR
+diverse noisy situations,synthesized speech,FEATURE-OF
+intel-ligibility measures,quality measure,CONJUNCTION
+Dau measure,intel-ligibility measures,HYPONYM-OF
+Dau measure,glimpse proportion,CONJUNCTION
+glimpse proportion,intel-ligibility measures,HYPONYM-OF
+glimpse proportion,Speech Intelligibility Index -LRB- SII -RRB-,CONJUNCTION
+Speech Intelligibility Index -LRB- SII -RRB-,intel-ligibility measures,HYPONYM-OF
+Perceptual Evaluation of Speech Quality -LRB- PESQ -RRB-,quality measure,HYPONYM-OF
+HMM-based speech synthesis system,generation of synthesized speech,USED-FOR
+additive noises,noisy conditions,PART-OF
+measures,subjective intelligibility scores,COMPARE
+Dau,glimpse measures,CONJUNCTION
+Dau,predictors of intelligibility,HYPONYM-OF
+Dau,subjective scores,COMPARE
+glimpse measures,predictors of intelligibility,HYPONYM-OF
+glimpse measures,subjective scores,COMPARE
+correlations,Dau,EVALUATE-FOR
+correlations,glimpse measures,EVALUATE-FOR
+measures,predictions of intelligibility,EVALUATE-FOR
+synthetic speech,predictions of intelligibility,USED-FOR
+synthetic speech,natural speech,COMPARE
+SII measure,measures,HYPONYM-OF
+ideal binary mask,synthesized speech,USED-FOR
+Glimpse measure,intelligibility predictions,USED-FOR
+'' graphics for vision '' approach,reconstruction,USED-FOR
+large and imperfect data set,reconstruction,USED-FOR
+tensor voting,reconstruction,USED-FOR
+tensor voting,ROD-TV,CONJUNCTION
+ROD-TV,reconstruction,USED-FOR
+efficiency,ROD-TV,EVALUATE-FOR
+robust-ness,ROD-TV,EVALUATE-FOR
+robust-ness,efficiency,CONJUNCTION
+view dependence,primitive connectivity,CONJUNCTION
+levels of detail -LRB- LOD -RRB-,view dependence,CONJUNCTION
+Locally inferred surface elements,local shapes,USED-FOR
+per-vertex normals,interpolative shading,USED-FOR
+sub-voxel precision,per-vertex normals,FEATURE-OF
+mesh connectivity requirement,multiscale feature extraction algorithm,USED-FOR
+ROD-TV,multiscale feature extraction algorithm,USED-FOR
+hierarchical data structure,ROD-TV,PART-OF
+tensor voting,local reconstruction algorithm,HYPONYM-OF
+traversing the data hierarchy,It,USED-FOR
+traversing the data hierarchy,collecting tensorial support,CONJUNCTION
+collecting tensorial support,It,USED-FOR
+rhetorical structure,punctuation,CONJUNCTION
+rhetorical structure,discourse processing,USED-FOR
+punctuation,discourse processing,USED-FOR
+Chinese punctuation marks,news commentary texts,PART-OF
+Colon,Chinese punctuation marks,HYPONYM-OF
+Colon,Dash,CONJUNCTION
+Dash,Chinese punctuation marks,HYPONYM-OF
+Dash,Ellipsis,CONJUNCTION
+Ellipsis,Chinese punctuation marks,HYPONYM-OF
+Ellipsis,Exclamation Mark,CONJUNCTION
+Exclamation Mark,Chinese punctuation marks,HYPONYM-OF
+Exclamation Mark,Question Mark,CONJUNCTION
+Question Mark,Chinese punctuation marks,HYPONYM-OF
+Question Mark,Semicolon,CONJUNCTION
+Semicolon,Chinese punctuation marks,HYPONYM-OF
+rhetorical patterns,marks,FEATURE-OF
+rhetorical patterns,patterns around cue phrases,COMPARE
+Chinese punctuation marks,cue phrases,COMPARE
+Chinese punctuation marks,indicators of nuclearity,USED-FOR
+Chinese texts,indicators of nuclearity,FEATURE-OF
+Markov random field -LRB- MRF -RRB- models,features,USED-FOR
+anisotropic circular Gaussian MRF -LRB- ACGMRF -RRB- model,modelling rotated image textures,USED-FOR
+anisotropic circular Gaussian MRF -LRB- ACGMRF -RRB- model,retrieving rotation-invariant texture features,USED-FOR
+modelling rotated image textures,retrieving rotation-invariant texture features,CONJUNCTION
+singularity problem,least squares estimate -LRB- LSE -RRB- method,FEATURE-OF
+approximate least squares estimate -LRB- ALSE -RRB- method,parameters of the ACGMRF model,USED-FOR
+parameters of the ACGMRF model,rotation-invariant features,USED-FOR
+one-dimensional -LRB- 1-D -RRB- discrete Fourier transform -LRB- DFT -RRB-,rotation-invariant features,USED-FOR
+rotation-invariant features,SAR -LRB- synthetic aperture radar,USED-FOR
+independent classifiers,semantic role labeling,USED-FOR
+independent classifiers,label sequence models,CONJUNCTION
+Viterbi decoding,label sequence models,USED-FOR
+features,discriminative log-linear models,PART-OF
+error reduction,system,EVALUATE-FOR
+error reduction,independent classifier,EVALUATE-FOR
+independent classifier,system,COMPARE
+gold-standard parse trees,system,EVALUATE-FOR
+gold-standard parse trees,independent classifier,EVALUATE-FOR
+gold-standard parse trees,PropBank,PART-OF
+MORphological PArser MORPA,ambiguity,USED-FOR
+probabilistic context-free grammar -LRB- PCFG -RRB-,MORphological PArser MORPA,USED-FOR
+`` conventional '' context-free morphological grammar,it,USED-FOR
+`` conventional '' context-free morphological grammar,ungrammatical segmentations,USED-FOR
+probability-based scoring function,it,USED-FOR
+probability-based scoring function,`` conventional '' context-free morphological grammar,CONJUNCTION
+probability-based scoring function,parse,USED-FOR
+PCFG,morphological parsing,USED-FOR
+MORPA,parser,HYPONYM-OF
+MORPA,text-to-speech conversion system,USED-FOR
+parser,text-to-speech conversion system,USED-FOR
+unification-based grammar formalism,Korean phonological knowledge base system,USED-FOR
+Korean Phonology Structure Grammar -LRB- KPSG -RRB-,unification-based grammar formalism,HYPONYM-OF
+approach,KPSG,USED-FOR
+KPSG,phonological system,USED-FOR
+approach,approaches,COMPARE
+generative phonological approach,those,USED-FOR
+design of core-selecting payment rules,domains,USED-FOR
+core-selecting rules,IR,USED-FOR
+computational Bayes-Nash equilibrium analysis,rules,USED-FOR
+rules,core-selecting rules,COMPARE
+rate of ex-post IR violations,rules,EVALUATE-FOR
+rate of ex-post IR violations,core-selecting rules,EVALUATE-FOR
+search tool,ngrams,USED-FOR
+tool,linguistic knowledge discovery,USED-FOR
+tool,NLP tasks,USED-FOR
+linguistic knowledge discovery,NLP tasks,CONJUNCTION
+user modeling,systems,PART-OF
+user model,user modeling,USED-FOR
+user modeling component,system,PART-OF
+Information extraction techniques,structured databases,USED-FOR
+unstructured data sources,Information extraction techniques,USED-FOR
+Web,unstructured data sources,HYPONYM-OF
+Web,newswire documents,CONJUNCTION
+newswire documents,unstructured data sources,HYPONYM-OF
+accuracy,systems,EVALUATE-FOR
+linear-chain conditional random field -LRB- CRF -RRB-,information extraction system,USED-FOR
+linear-chain conditional random field -LRB- CRF -RRB-,probabilistic model,HYPONYM-OF
+probabilistic model,information extraction tasks,USED-FOR
+probabilistic model,"arbitrary , overlapping features",USED-FOR
+"arbitrary , overlapping features",input,FEATURE-OF
+"arbitrary , overlapping features",Markov model,PART-OF
+extracted fields,multi-field records,CONJUNCTION
+average precision,techniques,EVALUATE-FOR
+information redundancy in multilingual input,machine translation,USED-FOR
+information redundancy in multilingual input,multilingual summaries,USED-FOR
+Arabic documents,machine translations,USED-FOR
+approach,oriented object proposals -LRB- OOPs -RRB-,USED-FOR
+detection error,oriented object proposals -LRB- OOPs -RRB-,EVALUATE-FOR
+pixelwise object probability,object regions,USED-FOR
+pixelwise object probability,objectness,COMPARE
+generative proba-bilistic model,proposal generation problem,USED-FOR
+shapes,object proposals,FEATURE-OF
+sizes,shapes,HYPONYM-OF
+sizes,orientations,CONJUNCTION
+orientations,shapes,HYPONYM-OF
+local maximum likelihoods,object proposals,USED-FOR
+object detector,orientations,USED-FOR
+it,number of proposals,USED-FOR
+recall,it,EVALUATE-FOR
+PASCAL VOC 2007 dataset,OOP,EVALUATE-FOR
+OOP,state-of-the-art fast methods,COMPARE
+rotation invariant property,class-specific object detector,USED-FOR
+class-specific object detector,proposal generation methods,COMPARE
+object rotation scenarios,class-specific object detector,EVALUATE-FOR
+object rotation scenarios,proposal generation methods,EVALUATE-FOR
+object rotation scenarios,general scenarios,CONJUNCTION
+general scenarios,class-specific object detector,EVALUATE-FOR
+general scenarios,proposal generation methods,EVALUATE-FOR
+domain-independent capabilities,Paramax spoken language understanding system,PART-OF
+non-monotonic reasoning,domain-independent capabilities,HYPONYM-OF
+implicit reference resolution,domain-independent capabilities,HYPONYM-OF
+database query paraphrase,domain-independent capabilities,HYPONYM-OF
+OCR accuracy,n-best speech/language integration architecture,EVALUATE-FOR
+free-hand human sketches,instance-level retrieval of images,USED-FOR
+annotated cross-domain sketch-photo datasets,machine learning techniques,USED-FOR
+deep triplet-ranking model,instance-level SBIR,USED-FOR
+deep triplet-ranking model,insufficient fine-grained training data,USED-FOR
+data augmentation,deep triplet-ranking model,USED-FOR
+data augmentation,staged pre-training strategy,CONJUNCTION
+staged pre-training strategy,deep triplet-ranking model,USED-FOR
+data sufficiency,over-fitting avoidance,CONJUNCTION
+deep networks,fine-grained cross-domain ranking tasks,USED-FOR
+unconstrained videos,generic action proposals,USED-FOR
+spatio-temporal video tube,temporal series of spatial bounding boxes,HYPONYM-OF
+spatio-temporal video tube,human action,USED-FOR
+appearance and motion cues,ac-tionness,USED-FOR
+ac-tionness,video tubes,EVALUATE-FOR
+maximum set coverage problem,action proposal generation,USED-FOR
+greedy search,action proposals,USED-FOR
+actionness score,action proposals,EVALUATE-FOR
+action proposal approaches,action proposals,COMPARE
+datasets,action proposals,EVALUATE-FOR
+MSRII,datasets,HYPONYM-OF
+MSRII,UCF 101,CONJUNCTION
+UCF 101,datasets,HYPONYM-OF
+action detection and search,action proposals,EVALUATE-FOR
+methods,creating natural language text,USED-FOR
+paradigm,KDS -LRB- Knowledge Delivery System -RRB-,PART-OF
+computational methods,KDS,USED-FOR
+co-occurrence similarities,query terms,USED-FOR
+query terms,retrieval,USED-FOR
+those,query terms,COMPARE
+useful terms,query terms,COMPARE
+first-order and second-order co-occurrence,similarities,USED-FOR
+phrase-based translation model,decoding algorithm,CONJUNCTION
+phrase-based models,word-based models,COMPARE
+heuristic learning of phrase translations,means,HYPONYM-OF
+word-based alignments,heuristic learning of phrase translations,USED-FOR
+lexical weighting of phrase translations,means,HYPONYM-OF
+methods,color constancy,USED-FOR
+methods,surface re-flectance estimates,USED-FOR
+uncalibrated images,surface re-flectance estimates,USED-FOR
+method,estimates of underlying surface re-flectance,USED-FOR
+method,image correspondences,USED-FOR
+alignment techniques,image correspondences,USED-FOR
+multi-view constraints,estimates of both scene illuminants and object color -LRB- surface reflectance -RRB-,USED-FOR
+baseline single-view method,multi-view constraints,COMPARE
+"concise , modular architecture",understanding,USED-FOR
+"concise , modular architecture",generation,USED-FOR
+understanding,generation,CONJUNCTION
