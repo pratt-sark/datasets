@@ -1,0 +1,89 @@
+title,abstract,score,comment
+Compression of Neural Machine Translation Models via Pruning,"Neural Machine Translation (NMT), like many other deep learning domains, typically suffers from over-parameterization, resulting in large storage sizes. This paper examines three simple magnitude-based pruning schemes to compress NMT models, namely class-blind, class-uniform and class-distribution, which differ in terms of how pruning thresholds are computed for the different classes of weights in the NMT architecture. We demonstrate the efficacy of weight pruning as a compression technique for a state-of-the-art NMT system. We show that an NMT model with over 200 million parameters can be pruned by 40% with very little performance loss as measured on the WMT'14 English-German translation task. This sheds light on the distribution of redundancy in the NMT architecture.  Our main result is that with with retraining, we can recover and even surpass the original performance with an 80%-pruned model.","{'IMPACT': '3', 'SUBSTANCE': '3', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '4', 'SOUNDNESS_CORRECTNESS': '4', 'ORIGINALITY': '2', 'CLARITY': '4'}","This paper investigates three simple weight-pruning techniques for NMT, and
+shows that pruning weights based on magnitude works best, and that retraining
+after pruning can recover original performance, even with fairly severe
+pruning.
+
+The main strength of paper is that the technique is very straightforward and
+the results are good. Itâs also clearly written and does a nice job covering
+previous work.
+
+A weakness is that the work isnât very novel, being just an application of a
+known technique to a new kind of neural net and application (namely NMT), with
+results that arenât very surprising. 
+
+Itâs not clear to me what practical significance these results have, since to
+take advantage of them you would need sparse matrix representations, which are
+trickier to get working fast on a GPU - and after all, speed is the main
+problem with NMT, not space. (There may be new work that changes this picture,
+since the field is evolving fast, but if so you need to describe it, and
+generally do a better job explaining why we should care about pruning.)
+
+A suggestion for dealing with the above weakness would be to use the pruning
+results to inform architecture changes. For instance, figure 3 suggests that
+you might be able to reduce the number of hidden layers to two, and also
+potentially reduce the dimension of source and target embeddings.
+
+Another suggestion is that you try to make a link between pruning+retraining
+and dropout (eg âA Theoretically Grounded Application of Dropout in Recurrent
+Neural Networksâ, Gal, arXiv 2016).
+
+Detailed comments:
+
+Line 111: âsoftmax weightsâ - âoutput embeddingsâ may be a preferable
+term
+
+S3.2: Itâs misleading to call n the âdimensionâ of the network, and
+specify all parameter sizes as integer multiples of this number as if this were
+a logical constraint.
+
+Line 319: You should cite Bahdanau et al here for the attention idea, rather
+than Luong for their use of it.
+
+S3.3: Class-uniform and class-distribution seem very similar (and naturally get
+very similar results); consider dropping one or the other.
+
+Figure 3 suggestion that you could hybridize pruning: use class-blind for most
+classes, but class-uniform for the embeddings.
+
+Figure 4 should show perplexity too.
+
+What pruning is used in section 4.2 & figure 6?
+
+Figure 7: does loss pertain to training or test corpora?
+
+Figure 8: This seems to be missing softmax weights. I found this diagram
+somewhat hard to interpret; it might be better to give relevant statistics,
+such as the proportion of each class that is removed by class-blind pruning at
+various levels.
+
+Line 762: You might want to cite Le et al, âA Simple Way to Initialize
+Recurrent Networks of Rectified Linear Unitsâ, arXiv 2015."
+Compression of Neural Machine Translation Models via Pruning,"Neural Machine Translation (NMT), like many other deep learning domains, typically suffers from over-parameterization, resulting in large storage sizes. This paper examines three simple magnitude-based pruning schemes to compress NMT models, namely class-blind, class-uniform and class-distribution, which differ in terms of how pruning thresholds are computed for the different classes of weights in the NMT architecture. We demonstrate the efficacy of weight pruning as a compression technique for a state-of-the-art NMT system. We show that an NMT model with over 200 million parameters can be pruned by 40% with very little performance loss as measured on the WMT'14 English-German translation task. This sheds light on the distribution of redundancy in the NMT architecture.  Our main result is that with with retraining, we can recover and even surpass the original performance with an 80%-pruned model.","{'IMPACT': '3', 'SUBSTANCE': '4', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '4', 'SOUNDNESS_CORRECTNESS': '4', 'ORIGINALITY': '3', 'CLARITY': '4'}","This paper applies the idea of translation model pruning to neural MT. The
+authors explore three simple threshold and histogram pruning schemes, two of
+which are applied separately to each weight class, while the third is applied
+to the entire model. The authors also show that retraining the models produces
+performance equal to the full model, even when 90% of the weights are pruned.
+An extensive analysis explains the superiority of the class-blind pruning
+scheme, as well as the performance boost through retraining. 
+
+While the main idea of the paper is simple, it seems quite useful for
+memory-restricted applications of NMT. I particularly liked the analysis
+section which gives further insight into the model components that are usually
+treated like black boxes. While these insights are interesting by themselves,
+the paper's main motivation is model compression. This argument would be
+stronger if the paper included some numbers on actual memory consumption of the
+compressed model in comparison to the uncompressed model.     
+
+Some minor remarks:
+- There is a substantial amount of work on pruning translation models in
+phrase-based SMT, which could be referenced in related work, e.g. 
+Johnson, J., Martin, J., Foster, G. and Kuhn, R.: Improving Translation Quality
+by Discarding Most of the Phrasetable. EMNLP 07 or
+Zens, R., Stanton, D. and Peng X.: A Systematic Comparison of Phrase Table
+Pruning Techniques. EMNLP 12
+
+- It took me a while to understand Figure 5. I would find it more informative
+to add an additional barplot under figure 4 showing highest discarded weight
+magnitude by class. This would also allow a comparison across all pruning
+methods."

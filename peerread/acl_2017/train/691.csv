@@ -1,0 +1,37 @@
+title,abstract,score,comment
+Ontology-Aware Token Embeddings for Prepositional Phrase Attachment,"Type-level word embeddings use the same set of parameters to represent all instances of a word regardless of its context, ignoring the inherent lexical ambiguity in language. Instead, we embed semantic concepts (or synsets) as defined in WordNet and represent a word token in a particular context by estimating a distribution over relevant semantic concepts. We use the new, context-sensitive embeddings in a model for predicting prepositional phrase (PP) attachments and jointly learn the concept embeddings and model parameters. We show that using context-sensitive embeddings improves the accuracy of the PP attachment model by 5.4% absolute points, which amounts to a 34.4% relative reduction in errors.","{'IMPACT': '5', 'SUBSTANCE': '4', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '5', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '4', 'CLARITY': '2'}","- Overview:
+
+The paper proposes a new model for training sense embeddings grounded in a
+lexical-semantic resource (in this case WordNet). There is no direct evaluation
+that the learned sense vectors are meaningful; instead, the sense vectors are
+combined back into word embeddings, which are evaluated in a downstream task:
+PP attachment prediction.
+
+- Strengths:
+
+PP attachment results seem solid.
+
+- Weaknesses:
+
+Whether the sense embeddings are meaningful remains uninvestigated. 
+
+The probabilistic model has some details that are hard to understand. Are the
+\lambda_w_i hyperparameters or trained? Where does “rank” come from, is
+this taken from the sense ranks in WordNet?
+
+Related work: the idea of expressing embeddings of words as a convex
+combination of sense embeddings has been proposed a number of times previously.
+For instance, Johansson and Nieto Piña “Embedding a semantic network in a
+word space” (NAACL, 2015) decomposed word embeddings into ontology-grounded
+sense embeddings based on this idea. Also in unsupervised sense vector training
+this idea has been used, for instance by Arora et al “Linear Algebraic
+Structure of Word Senses, with Applications to Polysemy”.
+
+Minor comments:
+
+no need to define types and tokens, this is standard terminology
+
+why is the first \lamba_w_i in equation 4 needed if the probability is
+unnormalized?
+
+- General Discussion:"

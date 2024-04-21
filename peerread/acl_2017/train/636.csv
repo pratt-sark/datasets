@@ -1,0 +1,48 @@
+title,abstract,score,comment
+Fast and Accurate Sequence Labeling with Iterated Dilated Convolutions,"Bi-directional LSTMs have emerged as a standard method for obtaining per-token vector representations serving as input to various token labeling tasks (whether followed by Viterbi prediction or independent classification).  This paper proposes an alternative to Bi-LSTMs for this purpose: iterated dilated convolutional neural networks (ID-CNNs), which have better capacity than traditional CNNs for large context and structured prediction.  We describe a distinct combination of network structure, parameter sharing and training procedures that is not only more accurate than Bi-LSTM-CRFs, but also 8x faster at test time on long sequences.  Moreover, ID-CNNs with independent classification enable a dramatic 14x test-time speedup, while still attaining accuracy comparable to the Bi-LSTM-CRF.  We further demonstrate the ability of ID-CNNs to combine evidence over long sequences by demonstrating their improved accuracy on whole-document (rather than per-sentence) inference.  Unlike LSTMs whose sequential processing on sentences of length N requires O(N) time even in the face of parallelism, IDCNNs permit fixed-depth convolutions to run in parallel across entire documents.  Today when many companies run basic NLP on the entire web and large-volume traffic, faster methods are paramount to saving time and energy costs.","{'IMPACT': '3', 'SUBSTANCE': '3', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '5', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '4', 'CLARITY': '4'}","This work proposes to apply dilated convolutions for sequence tagging
+(specifically, named entity recognition). It also introduces some novel ideas
+(sharing the dilated convolution block, predicting the tags at each convolution
+level), which I think will prove useful to the community. The paper performs
+extensive ablation experiments to show the effectiveness of their approach.
+I found the writing to be very clear, and the experiments were exceptionally
+thorough.
+
+Strengths:  
+- Extensive experiments against various architectures (LSTM, LSTM + CRF)       
+- Novel architectural/training ideas (sharing blocks)  
+
+Weaknesses:  
+- Only applied to English NER--this is a big concern since the title of the
+paper seems to reference sequence-tagging directly.  
+- Section 4.1 could be clearer. For example, I presume there is padding to make
+sure the output resolution after each block is the same as the input
+resolution.  Might be good to mention this.  
+- I think an ablation study of number of layers vs perf might be interesting.
+
+RESPONSE TO AUTHOR REBUTTAL:
+
+Thank you very much for a thoughtful response. Given that the authors have
+agreed to make the content be more specific to NER as opposed to
+sequence-tagging, I have revised my score upward."
+Fast and Accurate Sequence Labeling with Iterated Dilated Convolutions,"Bi-directional LSTMs have emerged as a standard method for obtaining per-token vector representations serving as input to various token labeling tasks (whether followed by Viterbi prediction or independent classification).  This paper proposes an alternative to Bi-LSTMs for this purpose: iterated dilated convolutional neural networks (ID-CNNs), which have better capacity than traditional CNNs for large context and structured prediction.  We describe a distinct combination of network structure, parameter sharing and training procedures that is not only more accurate than Bi-LSTM-CRFs, but also 8x faster at test time on long sequences.  Moreover, ID-CNNs with independent classification enable a dramatic 14x test-time speedup, while still attaining accuracy comparable to the Bi-LSTM-CRF.  We further demonstrate the ability of ID-CNNs to combine evidence over long sequences by demonstrating their improved accuracy on whole-document (rather than per-sentence) inference.  Unlike LSTMs whose sequential processing on sentences of length N requires O(N) time even in the face of parallelism, IDCNNs permit fixed-depth convolutions to run in parallel across entire documents.  Today when many companies run basic NLP on the entire web and large-volume traffic, faster methods are paramount to saving time and energy costs.","{'IMPACT': '3', 'SUBSTANCE': '3', 'APPROPRIATENESS': '4', 'MEANINGFUL_COMPARISON': '5', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '4', 'CLARITY': '2'}","- Strengths:
+
+The main strength promised by the paper is the speed advantage at the same
+accuracy level.
+
+- Weaknesses:
+
+Presentation of the approach leaves a lot to be desired. Sections 3 and 4 need
+to be much clearer, from concept definition to explaining the architecture and
+parameterization. In particular Section 4.1 and the parameter tieing used need
+to be crystal clear, since that is one of the main contributions of the paper.
+
+More experiments supporting the vast speed improvements promised need to be
+presented. The results in Table 2 are good but not great. A speed-up of 4-6X is
+nothing all that transformative.
+
+- General Discussion:
+
+What exactly is ""Viterbi prediction""? The term/concept is far from established;
+the reader could guess but there must be a better way to phrase it.
+
+Reference Weiss et al., 2015 has a typo."

@@ -1,0 +1,29 @@
+title,abstract,score,comment
+Determining Gains Acquired from Word Embedding Quantitatively Using Discrete Distribution Clustering,"Word embeddings have become widely-used in document analysis. While a large number of models for mapping words to vector spaces have been developed, it remains undetermined how much net gain can be achieved over traditional approaches based on bag-of-words. In this paper, we propose a new document clustering approach by combining any word embedding with a state-of-the-art algorithm for clustering empirical distributions. By using the Wasserstein distance between distributions, the word-to-word semantic relationship is taken into account in a principled way. The new clustering method is easy to use and consistently outperforms other methods on a variety of data sets. More importantly, the method provides an effective framework for determining when and how much word embeddings contribute to document analysis. Experimental results with multiple embedding models are reported.","{'IMPACT': '3', 'SUBSTANCE': '2', 'APPROPRIATENESS': '4', 'MEANINGFUL_COMPARISON': '3', 'SOUNDNESS_CORRECTNESS': '4', 'ORIGINALITY': '3', 'CLARITY': '3'}","- Strengths:
+
+- Weaknesses:
+Many grammar errors, such as the abstract
+
+- General Discussion:"
+Determining Gains Acquired from Word Embedding Quantitatively Using Discrete Distribution Clustering,"Word embeddings have become widely-used in document analysis. While a large number of models for mapping words to vector spaces have been developed, it remains undetermined how much net gain can be achieved over traditional approaches based on bag-of-words. In this paper, we propose a new document clustering approach by combining any word embedding with a state-of-the-art algorithm for clustering empirical distributions. By using the Wasserstein distance between distributions, the word-to-word semantic relationship is taken into account in a principled way. The new clustering method is easy to use and consistently outperforms other methods on a variety of data sets. More importantly, the method provides an effective framework for determining when and how much word embeddings contribute to document analysis. Experimental results with multiple embedding models are reported.","{'IMPACT': '3', 'SUBSTANCE': '4', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '3', 'SOUNDNESS_CORRECTNESS': '4', 'ORIGINALITY': '3', 'CLARITY': '4'}","- Strengths: Introduces  a new document clustering approach and compares it to
+several established methods, showing that it improves results in most cases.
+The analysis is very detailed and thorough--quite dense in many places and
+requires careful reading.
+
+The presentation is organized and clear, and I am impressed by the range of
+comparisons and influential factors that were considered. Argument is
+convincing and the work should influence future approaches.
+
+- Weaknesses:
+
+ The paper does not provide any information on the availability of the software
+described.
+
+- General Discussion:
+
+Needs some (minor) editing for English and typos--here are just a few:
+
+Line 124: regardless the size > regardless of the size
+Line 126: resources. Because > resources, because
+Line 205: consist- ing mk > consisting of mk
+Line 360: versionand > version and"

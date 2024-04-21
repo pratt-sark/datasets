@@ -1,0 +1,87 @@
+title,abstract,comment,score
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.","The paper proposes a new way of transferring knowledge.
+I like the idea of transferring attention maps instead of activations.
+However, the experiments don’t show a big improvement compared with knowledge distillation alone and I think more experiments are required in IMAGENET section.
+I would consider updating the score if the authors extend the last section 4.2.2.","{'MEANINGFUL_COMPARISON': 5, 'ORIGINALITY': 2, 'CLARITY': 5}"
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.","The paper presented a modified knowledge distillation framework that minimizes the difference of the sum of statistics across the a feature map between the teacher and the student network. The authors empirically demonstrated the proposed methods outperform the fitnet style distillation baseline. 
+
+Pros:
++ The author evaluated the proposed methods on various computer vision dataset 
++ The paper is in general well-written
+
+Cons:  
+- The method seems to be limited to the convolutional architecture
+- The attention terminology is misleading in the paper. The proposed method really just try to distill the summed squared(or other statistics e.g. summed lp norm) of  activations in a hidden feature map.
+- The gradient-based attention transfer seems out-of-place. The proposed gradient-based methods are never compared directly to nor are used jointly with the ""attention-based"" transfer. It seems like a parallel idea added to the paper that does not seem to add much value.
+- It is also not clear how the induced 2-norms in eq.(2) is computed. Q is a matrix \in \mathbb{R}^{H \times W}  whose induced 2-norm is its largest singular value. It seems computationally expensive to compute such cost function. Is it possible the authors really mean the Frobenius norm?
+
+Overall, the proposed distillation method works well in practice but the paper has some organization issues and unclear notation.  
+",{'ORIGINALITY': 5}
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.","This paper proposes to investigate attention transfers between a teacher and a student network. 
+
+Attention transfer is performed by minimising the l2 distance between the teacher/student attention maps at different layers, in addition to minimising the classification loss and optionally a knowledge distillation term.
+Authors define several activation based attentions (sum of absolute feature values raise at the power p or max of values raised at the power p). They also propose a gradient based attention (derivative of the Loss w.r.t. inputs). 
+
+They evaluate their approaches on several datasets (CIFAR, Cub/Scene, Imagenet) showing that attention transfers  does help improving the student network test performance.  However, the student networks performs worst than the teacher, even with attention.
+
+Few remarks/questions:
+- in section 3 authors  claim that networks with higher accuracy have a higher spatial correlation between the object and the attention map. While Figure 4 is compelling, it would be nice to have quantitative results showing that as well.
+- how did you choose the hyperparameter values, it would be nice to see what is the impact of $\beta$.
+- it would be nice to report teacher train and validation loss in Figure 7 b)
+- from the experiments, it is not clear what at the pros/cons of the different attention maps
+- AT does not lead to better result than the teacher. However, the student networks have less parameters. It would be interesting to characterise the corresponding speed-up. If you keep the same architecture between the student and the teacher, is there any benefit to the attention transfer?
+
+In summary:
+Pros:
+- Clearly written and well motivated.
+- Consistent improvement of the student with attention compared to the student alone.
+Cons:
+- Students have worst performances than the teacher models.
+- It is not clear which attention to use in which case?
+- Somewhat incremental novelty relatively to Fitnet
+","{'MEANINGFUL_COMPARISON': 3, 'SOUNDNESS_CORRECTNESS': 5, 'ORIGINALITY': 2, 'CLARITY': 5}"
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.",,{'ORIGINALITY': 5}
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.",,"{'MEANINGFUL_COMPARISON': 3, 'SOUNDNESS_CORRECTNESS': 5, 'ORIGINALITY': 2, 'CLARITY': 5}"
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.","The paper proposes a new way of transferring knowledge.
+I like the idea of transferring attention maps instead of activations.
+However, the experiments don’t show a big improvement compared with knowledge distillation alone and I think more experiments are required in IMAGENET section.
+I would consider updating the score if the authors extend the last section 4.2.2.","{'MEANINGFUL_COMPARISON': 5, 'ORIGINALITY': 2, 'CLARITY': 5}"
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.","The paper presented a modified knowledge distillation framework that minimizes the difference of the sum of statistics across the a feature map between the teacher and the student network. The authors empirically demonstrated the proposed methods outperform the fitnet style distillation baseline. 
+
+Pros:
++ The author evaluated the proposed methods on various computer vision dataset 
++ The paper is in general well-written
+
+Cons:  
+- The method seems to be limited to the convolutional architecture
+- The attention terminology is misleading in the paper. The proposed method really just try to distill the summed squared(or other statistics e.g. summed lp norm) of  activations in a hidden feature map.
+- The gradient-based attention transfer seems out-of-place. The proposed gradient-based methods are never compared directly to nor are used jointly with the ""attention-based"" transfer. It seems like a parallel idea added to the paper that does not seem to add much value.
+- It is also not clear how the induced 2-norms in eq.(2) is computed. Q is a matrix \in \mathbb{R}^{H \times W}  whose induced 2-norm is its largest singular value. It seems computationally expensive to compute such cost function. Is it possible the authors really mean the Frobenius norm?
+
+Overall, the proposed distillation method works well in practice but the paper has some organization issues and unclear notation.  
+",{'ORIGINALITY': 5}
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.","This paper proposes to investigate attention transfers between a teacher and a student network. 
+
+Attention transfer is performed by minimising the l2 distance between the teacher/student attention maps at different layers, in addition to minimising the classification loss and optionally a knowledge distillation term.
+Authors define several activation based attentions (sum of absolute feature values raise at the power p or max of values raised at the power p). They also propose a gradient based attention (derivative of the Loss w.r.t. inputs). 
+
+They evaluate their approaches on several datasets (CIFAR, Cub/Scene, Imagenet) showing that attention transfers  does help improving the student network test performance.  However, the student networks performs worst than the teacher, even with attention.
+
+Few remarks/questions:
+- in section 3 authors  claim that networks with higher accuracy have a higher spatial correlation between the object and the attention map. While Figure 4 is compelling, it would be nice to have quantitative results showing that as well.
+- how did you choose the hyperparameter values, it would be nice to see what is the impact of $\beta$.
+- it would be nice to report teacher train and validation loss in Figure 7 b)
+- from the experiments, it is not clear what at the pros/cons of the different attention maps
+- AT does not lead to better result than the teacher. However, the student networks have less parameters. It would be interesting to characterise the corresponding speed-up. If you keep the same architecture between the student and the teacher, is there any benefit to the attention transfer?
+
+In summary:
+Pros:
+- Clearly written and well motivated.
+- Consistent improvement of the student with attention compared to the student alone.
+Cons:
+- Students have worst performances than the teacher models.
+- It is not clear which attention to use in which case?
+- Somewhat incremental novelty relatively to Fitnet
+","{'MEANINGFUL_COMPARISON': 3, 'SOUNDNESS_CORRECTNESS': 5, 'ORIGINALITY': 2, 'CLARITY': 5}"
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.",,{'ORIGINALITY': 5}
+Paying More Attention to Attention: Improving the Performance of Convolutional Neural Networks via Attention Transfer,"Attention plays a critical role in human visual experience. Furthermore, it has recently been demonstrated that attention can also play an important role in the context of applying artificial neural networks to a variety of tasks from fields such as computer vision and NLP. In this work we show that, by properly defining attention for convolutional neural networks, we can actually use this type of information in order to significantly improve the performance of a student CNN network by forcing it to mimic the attention maps of a powerful teacher network. To that end, we propose several novel methods of transferring attention, showing consistent improvement across a variety of datasets and convolutional neural network architectures.",,"{'MEANINGFUL_COMPARISON': 3, 'SOUNDNESS_CORRECTNESS': 5, 'ORIGINALITY': 2, 'CLARITY': 5}"

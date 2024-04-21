@@ -1,0 +1,48 @@
+title,abstract,score,comment
+Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings,"We study a \emph{symmetric collaborative dialogue} setting in which two agents, each with private knowledge, must strategically communicate to achieve a common goal. The open-ended dialogue state in this setting poses new challenges for existing dialogue systems. We collected a dataset of 11K human-human dialogues, which exhibits interesting lexical, semantic, and strategic elements. To model both structured knowledge and unstructured language, we propose a neural model with dynamic knowledge graph embeddings that evolve as the dialogue progresses. Automatic and human evaluations show that our model is both more effective at achieving the goal and more human-like than baseline neural and rule-based models.","{'IMPACT': '3', 'SUBSTANCE': '3', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '4', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '4', 'CLARITY': '3'}","This paper proposes a method for building dialogue agents involved in a
+symmetric collaborative task, in which the agents need to strategically
+communicate to achieve a common goal.  
+
+I do like this paper.  I am very interested in how much data-driven techniques
+can be used for dialogue management.  However, I am concerned that the approach
+that this paper proposes, is actually not specific to symmetric collaborative
+tasks, but to tasks that can be represented as graph operations, such as
+finding an intersection between objects that the two people know about.
+
+In Section 2.1, the authors introduce symmetric collaborative dialogue setting.
+ However, such dialogs have been studied before, such as Clark and Wilkes-Gibbs
+explored (Cognition '86), and Walker's furniture layout task (Journal of
+Artificial Research '00).
+
+On line 229, the authors say that this domain is too rich for slot-value
+semantics.  However, their domain is based on attribute value pairs, so their
+domain could use a semantics represenation based on attribute value-pairs, such
+as first order logic.
+
+Section 3.2 is hard to follow.        The authors often refer to Figure 2, but I
+didn't find this example that helpful.        For example, for section 3.1, at what
+point of the dialogue does this represent?  Is this the same after `anyone went
+to columbia?'"
+Learning Symmetric Collaborative Dialogue Agents with Dynamic Knowledge Graph Embeddings,"We study a \emph{symmetric collaborative dialogue} setting in which two agents, each with private knowledge, must strategically communicate to achieve a common goal. The open-ended dialogue state in this setting poses new challenges for existing dialogue systems. We collected a dataset of 11K human-human dialogues, which exhibits interesting lexical, semantic, and strategic elements. To model both structured knowledge and unstructured language, we propose a neural model with dynamic knowledge graph embeddings that evolve as the dialogue progresses. Automatic and human evaluations show that our model is both more effective at achieving the goal and more human-like than baseline neural and rule-based models.","{'IMPACT': '3', 'SUBSTANCE': '4', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '4', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '4', 'CLARITY': '3'}","This paper presents a novel framework for modelling symmetric collaborative
+dialogue agents by dynamically extending knowledge graphs embeddings. The task
+is rather simple: two dialogue agents (bot-bot, human-human or human-bot) talk
+about their mutual friends. There is an underlying knowledge base for each
+party in the dialogue and an associated knowledge graph. Items in the knowledge
+graph have embeddings that are dynamically updated during the conversation and
+used to generate the answers.
+
+- Strengths: This model is very novel for both goal-directed and open ended
+dialogue. The presented evaluation metrics show clear advantage for the
+presented model.
+
+- Weaknesses: In terms of the presentation, mathematical details of how the
+embeddings are computed are not sufficiently clear. While the authors have done
+an extensive evaluation, they haven't actually compared the system with an
+RL-based dialogue manager which is current state-of-the-art in goal-oriented
+systems. Finally, it is not clear how this approach scales to more complex
+problems. The authors say that the KB is 3K, but actually what the agent
+operates is about 10 (judging from Table 6).
+
+- General Discussion: Overall, I think this is a good paper. Had the
+theoretical aspects of the paper been better presented I would give this paper
+an accept."

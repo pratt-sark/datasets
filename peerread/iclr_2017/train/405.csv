@@ -1,0 +1,137 @@
+title,abstract,comment,score
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.","[UPDATE]
+After going through the response from the author and the revision, I increased my review score for two reasons.
+1. I thank the reviewers for further investigating the difference between yours and the other work (Scheduled sampling, Unsupervised learning using LSTM) and providing some insights about it.
+This paper at least shows empirically that 100%-Pred scheme is better for high-dimensional video and for long-term predictions.
+It would be good if the authors briefly discuss this in the final revision (either in the appendix or in the main text).
+
+2. The revised paper contains more comprehensive results than before.
+The presented result and discussion in this paper will be quite useful to the research community as high-dimensional video prediction involves large-scale experiments that are computationally expensive.
+
+- Summary
+This paper presents a new RNN architecture for action-conditional future prediction. The proposed architecture combines actions into the recurrent connection of the LSTM core, which performs better than the previous state-of-the-art architecture [Oh et al.]. The paper also explores and compares different architectures such as frame-dependent/independent mode and observation/prediction-dependent architectures. The experimental result shows that the proposed architecture with fully prediction-dependent training scheme achieves the state-of-the-art performance on several complex visual domains. It is also shown that the proposed prediction architecture can be used to improve exploration in a 3D environment.
+
+- Novelty
+The novelty of the proposed architecture is not strong. The difference between [Oh et al.] and this work is that actions are combined into the LSTM in this paper, while actions are combined after LSTM in [Oh et al.]. The jumpy prediction was already introduced by [Srivastava et al.] in the deep learning area. 
+
+- Experiment
+The experiments are well-designed and thorough. Specifically, the paper evaluates different training schemes and compares different architectures using several rich domains (Atari, 3D worlds). Besides, the proposed method achieves the state-of-the-art results on many domains and presents an application for model-based exploration.
+
+- Clarity
+The paper is well-written and easy to follow.
+
+- Overall 
+Although the proposed architecture is not much novel, it achieves promising results on Atari games and 3D environments. In addition, the systematic evaluation of different architectures presented in the paper would be useful to the community.
+
+[Reference]
+Nitish Srivastava, Elman Mansimov, Ruslan Salakhutdinov. Unsupervised Learning with LSTMs. ICML 2016.","{'SOUNDNESS_CORRECTNESS': 3, 'CLARITY': 5}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.","The paper presents an action-conditional recurrent network that can predict frames in video games hundreds of steps in the future. The paper claims three main contributions: 
+1. modification to model architecture (used in Oh et al.) by using action at time t-1 to directly predict hidden state at t
+2. exploring the idea of jumpy predictions (predictions multiple frames in future without using intermediate frames)
+3. exploring different training schemes (trade-off between observation and prediction frames for training LSTM)
+
+1. modification to model architecture
++ The motivation seems good that in past work (Oh et al.) the action at t-1 influences x_t, but not the state h_t of the LSTM. This could be fixed by making the LSTM state h_t dependent on a_{t-1}
+- However, this is of minor technical novelty. Also, as pointed in reviewer questions, a similar effect could be achieved by adding a_t-1 as an input to the LSTM at time t. This could be done without modifying the LSTM architecture as stated in the paper. While the authors claim that combining a_t-1 with h_t-1 and s_t-1 performs worse than the current method which combines a_t-1 only with h_t-1, I would have liked to see the empirical difference in combining a_t-1 only with s_t-1 or only with h_t-1. Also, a stronger motivation is required to support the current formulation.
+- Further, the benefits of this change in architecture is not well analyzed in experiments. Fig. 5(a) provides the difference between Oh et al. (with traditional LSTM) and current method. However, the performance difference is composed of 2 components (difference in training scheme and architecture). This contribution of the architecture to the performance is not clear from this experiment. The authors did claim in the pre-review phase that Fig. 12 (a) shows the difference in performance only due to architecture for ""Seaquest"". However, from this plot it appears that the gain at 100-steps (~15)  is only a small fraction of the overall gain in Fig. 5 (a) (~90). It is difficult to judge the significance of the architecture modification from this result for one game.
+
+2. Exploring the idea of jumpy predictions:
++ As stated by the authors, omitting the intermediate frames while predicting future frames could significantly sppedup simulations.
++ The results in Fig. 5(b) present some interesting observations that omitting intermediate frames does not lead to significant error-increase for at least a few games.
+- However, it is again not clear whether the modification in the current model leads to this effect or it could be achieved by previous models like Oh et al.
+- While, the observations themselves are interesting, it would have been better to provide a more detailed analysis for more games. Also, the novelty in dropping intermediate frames for speedup is marginal.
+
+3. Exploring different training schemes
++ This is perhaps the most interesting observation presented in the paper. The authors present the difference in performance for different training schemes in Fig. 2(a). The training schemes are varied based on the fraction of training phase which only uses observation frames and the fraction that uses only prediction frames.
++ The results show that this change in training can significantly affect prediction results and is the biggest contributor to performance improvement compared to Oh et al.
+- While this observation is interesting, this effect has been previously explored in detail in other works like schedule sampling (Bengio et al.) and to some extent in Oh et al.
+
+Clarity of presentation:
+- The exact experimental setup is not clearly stated for some of the results. For instance, the paper does not say that Fig. 2(a) uses the same architecture as Oh et al. However, this is stated in the response to reviewer questions.
+- Fig. 4 is difficult to interpret. The qualitative difference between Oh et al. and current method could be highlighted explicitly. 
+- Minor: The qualitative analysis section requires the reader to navigate to various video-links in order to understand the section. This leads to a discontinuity in reading and is particularly difficult while reading a printed-copy.
+
+Overall, the paper presents some interesting experimental observations. However, the technical novelty and contribution of the proposed architecture and training scheme is not clear.","{'IMPACT': 4, 'SUBSTANCE': 3, 'ORIGINALITY': 3}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.","The authors propose a recurrent neural network architecture that is able to output more accurate long-term predictions of several game environments than the current state-of-the-art.
+The original network architecture was inspired by inability of previous methods to accurately predict many time-steps into the future,
+and their inability to jump directly to a future prediction without iterating through all intermediate states.
+The authors have provided an extensive experimental evaluation on several benchmarks with promising results.
+In general the paper is well written and quite clear in its explanations.
+Demonstrating that this kind of future state prediction is useful for 3D maze exploration is a plus.
+
+# Minor comments:
+`jumpy predictions have been developed in low-dimensional observation spaces' - cite relevant work in the paper.
+
+# Typos
+Section 3.1 - `this configuration is all experiments'","{'IMPACT': 5, 'SUBSTANCE': 3, 'ORIGINALITY': 4}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.",,"{'IMPACT': 4, 'SUBSTANCE': 3, 'ORIGINALITY': 3}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.",,"{'SOUNDNESS_CORRECTNESS': 3, 'CLARITY': 5}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.",,"{'IMPACT': 5, 'SUBSTANCE': 3, 'ORIGINALITY': 4}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.","[UPDATE]
+After going through the response from the author and the revision, I increased my review score for two reasons.
+1. I thank the reviewers for further investigating the difference between yours and the other work (Scheduled sampling, Unsupervised learning using LSTM) and providing some insights about it.
+This paper at least shows empirically that 100%-Pred scheme is better for high-dimensional video and for long-term predictions.
+It would be good if the authors briefly discuss this in the final revision (either in the appendix or in the main text).
+
+2. The revised paper contains more comprehensive results than before.
+The presented result and discussion in this paper will be quite useful to the research community as high-dimensional video prediction involves large-scale experiments that are computationally expensive.
+
+- Summary
+This paper presents a new RNN architecture for action-conditional future prediction. The proposed architecture combines actions into the recurrent connection of the LSTM core, which performs better than the previous state-of-the-art architecture [Oh et al.]. The paper also explores and compares different architectures such as frame-dependent/independent mode and observation/prediction-dependent architectures. The experimental result shows that the proposed architecture with fully prediction-dependent training scheme achieves the state-of-the-art performance on several complex visual domains. It is also shown that the proposed prediction architecture can be used to improve exploration in a 3D environment.
+
+- Novelty
+The novelty of the proposed architecture is not strong. The difference between [Oh et al.] and this work is that actions are combined into the LSTM in this paper, while actions are combined after LSTM in [Oh et al.]. The jumpy prediction was already introduced by [Srivastava et al.] in the deep learning area. 
+
+- Experiment
+The experiments are well-designed and thorough. Specifically, the paper evaluates different training schemes and compares different architectures using several rich domains (Atari, 3D worlds). Besides, the proposed method achieves the state-of-the-art results on many domains and presents an application for model-based exploration.
+
+- Clarity
+The paper is well-written and easy to follow.
+
+- Overall 
+Although the proposed architecture is not much novel, it achieves promising results on Atari games and 3D environments. In addition, the systematic evaluation of different architectures presented in the paper would be useful to the community.
+
+[Reference]
+Nitish Srivastava, Elman Mansimov, Ruslan Salakhutdinov. Unsupervised Learning with LSTMs. ICML 2016.","{'SOUNDNESS_CORRECTNESS': 3, 'CLARITY': 5}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.","The paper presents an action-conditional recurrent network that can predict frames in video games hundreds of steps in the future. The paper claims three main contributions: 
+1. modification to model architecture (used in Oh et al.) by using action at time t-1 to directly predict hidden state at t
+2. exploring the idea of jumpy predictions (predictions multiple frames in future without using intermediate frames)
+3. exploring different training schemes (trade-off between observation and prediction frames for training LSTM)
+
+1. modification to model architecture
++ The motivation seems good that in past work (Oh et al.) the action at t-1 influences x_t, but not the state h_t of the LSTM. This could be fixed by making the LSTM state h_t dependent on a_{t-1}
+- However, this is of minor technical novelty. Also, as pointed in reviewer questions, a similar effect could be achieved by adding a_t-1 as an input to the LSTM at time t. This could be done without modifying the LSTM architecture as stated in the paper. While the authors claim that combining a_t-1 with h_t-1 and s_t-1 performs worse than the current method which combines a_t-1 only with h_t-1, I would have liked to see the empirical difference in combining a_t-1 only with s_t-1 or only with h_t-1. Also, a stronger motivation is required to support the current formulation.
+- Further, the benefits of this change in architecture is not well analyzed in experiments. Fig. 5(a) provides the difference between Oh et al. (with traditional LSTM) and current method. However, the performance difference is composed of 2 components (difference in training scheme and architecture). This contribution of the architecture to the performance is not clear from this experiment. The authors did claim in the pre-review phase that Fig. 12 (a) shows the difference in performance only due to architecture for ""Seaquest"". However, from this plot it appears that the gain at 100-steps (~15)  is only a small fraction of the overall gain in Fig. 5 (a) (~90). It is difficult to judge the significance of the architecture modification from this result for one game.
+
+2. Exploring the idea of jumpy predictions:
++ As stated by the authors, omitting the intermediate frames while predicting future frames could significantly sppedup simulations.
++ The results in Fig. 5(b) present some interesting observations that omitting intermediate frames does not lead to significant error-increase for at least a few games.
+- However, it is again not clear whether the modification in the current model leads to this effect or it could be achieved by previous models like Oh et al.
+- While, the observations themselves are interesting, it would have been better to provide a more detailed analysis for more games. Also, the novelty in dropping intermediate frames for speedup is marginal.
+
+3. Exploring different training schemes
++ This is perhaps the most interesting observation presented in the paper. The authors present the difference in performance for different training schemes in Fig. 2(a). The training schemes are varied based on the fraction of training phase which only uses observation frames and the fraction that uses only prediction frames.
++ The results show that this change in training can significantly affect prediction results and is the biggest contributor to performance improvement compared to Oh et al.
+- While this observation is interesting, this effect has been previously explored in detail in other works like schedule sampling (Bengio et al.) and to some extent in Oh et al.
+
+Clarity of presentation:
+- The exact experimental setup is not clearly stated for some of the results. For instance, the paper does not say that Fig. 2(a) uses the same architecture as Oh et al. However, this is stated in the response to reviewer questions.
+- Fig. 4 is difficult to interpret. The qualitative difference between Oh et al. and current method could be highlighted explicitly. 
+- Minor: The qualitative analysis section requires the reader to navigate to various video-links in order to understand the section. This leads to a discontinuity in reading and is particularly difficult while reading a printed-copy.
+
+Overall, the paper presents some interesting experimental observations. However, the technical novelty and contribution of the proposed architecture and training scheme is not clear.","{'IMPACT': 4, 'SUBSTANCE': 3, 'ORIGINALITY': 3}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.","The authors propose a recurrent neural network architecture that is able to output more accurate long-term predictions of several game environments than the current state-of-the-art.
+The original network architecture was inspired by inability of previous methods to accurately predict many time-steps into the future,
+and their inability to jump directly to a future prediction without iterating through all intermediate states.
+The authors have provided an extensive experimental evaluation on several benchmarks with promising results.
+In general the paper is well written and quite clear in its explanations.
+Demonstrating that this kind of future state prediction is useful for 3D maze exploration is a plus.
+
+# Minor comments:
+`jumpy predictions have been developed in low-dimensional observation spaces' - cite relevant work in the paper.
+
+# Typos
+Section 3.1 - `this configuration is all experiments'","{'IMPACT': 5, 'SUBSTANCE': 3, 'ORIGINALITY': 4}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.",,"{'IMPACT': 4, 'SUBSTANCE': 3, 'ORIGINALITY': 3}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.",,"{'SOUNDNESS_CORRECTNESS': 3, 'CLARITY': 5}"
+Recurrent Environment Simulators,"Models that can simulate how environments change in response to actions can be used by agents to plan and act efficiently. We improve on previous environment simulators from high-dimensional pixel observations by introducing recurrent neural networks that are able to make temporally and spatially coherent predictions for hundreds of time-steps into the future. We present an in-depth analysis of the factors affecting performance, providing the most extensive attempt to advance the understanding of the properties of these models. We address the issue of computationally inefficiency with a model that does not need to generate a high-dimensional image at each time-step. We show that our approach can be used to improve exploration and is adaptable to many diverse environments, namely 10 Atari games, a 3D car racing environment, and complex 3D mazes.",,"{'IMPACT': 5, 'SUBSTANCE': 3, 'ORIGINALITY': 4}"

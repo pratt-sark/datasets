@@ -1,0 +1,34 @@
+title,abstract,score,comment
+Polish evaluation dataset for compositional distributional semantics models,"The paper presents a procedure of building an evaluation dataset. for the validation of compositional distributional semantics models estimated for languages other than English. The procedure generally builds on steps designed to assemble the SICK corpus, which contains pairs of English sentences annotated for semantic relatedness and entailment, because we aim at building a comparable dataset. However, the implementation of particular building steps significantly differs from the original SICK design assumptions, which is caused by both lack of necessary extraneous resources for an investigated language and the need for language-specific transformation rules. The designed procedure is verified on Polish, a fusional language with a relatively free word order, and contributes to building a Polish evaluation dataset. The resource consists of 10K sentence pairs which are human-annotated for semantic relatedness and entailment. The dataset may be used for the evaluation of compositional distributional semantics models of Polish.","{'IMPACT': '3', 'SUBSTANCE': '3', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '3', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '3', 'CLARITY': '4'}","- Strengths:
+
+1) This paper proposed a semi-automated framework (human generation -> auto
+expansion -> human post-editing) to construct a compositional
+semantic similarity evaluation data set.
+
+2) The proposed framework is used to create a Polish compositional semantic
+similarity evaluation data set which is useful for future work in developing
+Polish compositional semantic models.
+
+- Weaknesses:
+
+1) The proposed framework has only been tested on one language. It is not clear
+whether the framework is portable to other languages. For example, the proposed
+framework relies on a dependency parser which may not be available in some
+languages or in poor performance in some other languages.
+
+2) The number of sentence pairs edited by leader judges is not reported so the
+correctness and efficiency of the automatic expansion framework can not be
+evaluated. The fact that more than 3% (369 out of 10k) of the post-edited pairs
+need further post-editing is worrying. 
+
+3) There are quite a number of grammatical mistakes. Here are some examples but
+not the complete and exhaustive list:
+
+line 210, 212, 213: ""on a displayed image/picture"" -> ""in a displayed
+image/picture""
+
+line 428: ""Similarly as in"" -> ""Similar to""
+
+A proofread pass on the paper is needed.
+
+- General Discussion:"

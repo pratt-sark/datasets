@@ -1,0 +1,41 @@
+title,abstract,score,comment
+A New Approach for Measuring Sentiment Orientation based on Multi-Dimensional Vector Space,"This study implements a vector space model approach to measure the sentiment orientations of words. Two representative vectors for positive/negative polarity are constructed using high-dimensional vec-tor space in both an unsupervised and a semi-supervised manner. A sentiment ori-entation value per word is determined by taking the difference between the cosine distances against the two reference vec-tors. These two conditions (unsupervised and semi-supervised) are compared against an existing unsupervised method (Turney, 2002). As a result of our experi-ment, we demonstrate that this novel ap-proach significantly outperforms the pre-vious unsupervised approach and is more practical and data efficient as well.","{'IMPACT': '3', 'SUBSTANCE': '1', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '3', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '3', 'CLARITY': '3'}","# Summary
+
+This paper presents an empirical study to identify a latent dimension of
+sentiment in word embeddings.
+
+# Strengths
+
+ S1) Tackles a challenging problem of unsupervised sentiment analysis.
+
+ S2) Figure 2, in particular, is a nice visualisation.
+
+# Weaknesses
+
+ W1) The experiments, in particular, are very thin. I would recommend also
+measuring F1 performance and expanding the number of techniques compared.
+
+ W2) The methodology description needs more organisation and elaboration. The
+ideas tested are itemised, but insufficiently justified. 
+
+ W3) The results are quite weak in terms of the reported accuracy and depth of
+analysis. Perhaps this work needs more development, particularly with
+validating the central assumption that the Distributional Hypothesis implies
+that opposite words, although semantically similar, are separated well in the
+vector space?"
+A New Approach for Measuring Sentiment Orientation based on Multi-Dimensional Vector Space,"This study implements a vector space model approach to measure the sentiment orientations of words. Two representative vectors for positive/negative polarity are constructed using high-dimensional vec-tor space in both an unsupervised and a semi-supervised manner. A sentiment ori-entation value per word is determined by taking the difference between the cosine distances against the two reference vec-tors. These two conditions (unsupervised and semi-supervised) are compared against an existing unsupervised method (Turney, 2002). As a result of our experi-ment, we demonstrate that this novel ap-proach significantly outperforms the pre-vious unsupervised approach and is more practical and data efficient as well.","{'IMPACT': '3', 'SUBSTANCE': '2', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '3', 'SOUNDNESS_CORRECTNESS': '3', 'ORIGINALITY': '3', 'CLARITY': '4'}","- Strengths
+This paper deals with the issue of finding word polarity orientation in an
+unsupervised manner, using word embeddings.
+
+- Weaknesses
+The paper presents an interesting and useful idea, however, at this moment, it
+is not applied to any test case. The ideas on which it is based are explained
+in an ""intuitive"" manner and not thoroughly justified. 
+
+- General Discussion
+This is definitely interesting work. The paper would benefit from more
+experiments being carried out, comparison with other methods (for example, the
+use of the Normalized Google Distance by authors such as (Balahur and Montoyo,
+2008) - http://ieeexplore.ieee.org/abstract/document/4906796/) and the
+application of the knowledge obtained to a real sentiment analysis scenario. At
+this point, the work, although promising, is in its initial phase."

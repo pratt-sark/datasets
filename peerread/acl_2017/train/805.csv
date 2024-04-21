@@ -1,0 +1,28 @@
+title,abstract,score,comment
+TextFlow: A Text Similarity Measure based on Continuous Sequences,"Text similarity measures are used in multiple tasks such as plagiarism detection, information ranking and recognition of paraphrases and textual entailment. While recent advances in deep learning highlighted the relevance of sequential models in natural language generation, existing similarity measures do not fully exploit the sequential nature of language. Examples of such similarity measures include n-grams and skip-grams overlap which rely on distinct slices of the input texts. In this paper we present a novel text similarity measure inspired from a common representation in DNA sequence alignment algorithms. The new measure, called TextFlow, represents input text pairs as continuous curves and uses both the actual position of the words and sequence matching to compute the similarity value. Our experiments on 8 different datasets show very encouraging results in paraphrase detection, textual entailment recognition and ranking relevance.","{'IMPACT': '3', 'SUBSTANCE': '4', 'APPROPRIATENESS': '5', 'MEANINGFUL_COMPARISON': '4', 'SOUNDNESS_CORRECTNESS': '4', 'ORIGINALITY': '4', 'CLARITY': '5'}","- Strengths:
+
+originality of the CORE evaluation measure, good accuracy of proposed
+similarity measure and large number and diversity of datasets for evaluation.
+
+- Weaknesses: 
+
+ # some typos
+   - line 116-117, 'to design of a new' -> 'to design a new'
+   - line 176-177, figure 2 -> figure 1
+   - line 265, 'among the the top' -> 'among the top'
+   - line 320, 'figure 4' should be introduced within the article body.
+   - line 434, 'the dataset was contains' -> 'the dataset contains'
+   - line 486-487, table 3 -> table 1
+   - a 'Tensorflow' should be replaced by 'TextFlow'
+
+ # imprecisions
+   - features computation accuracy of lemma, pos or wordnet synset should be
+detailed in the paper and it should be discussed if it impacts the general
+similarity accuracy evaluation or not
+  - the neural networks are said to be implemented in Python but the code is
+not
+said to be available - to be able to repeat the experiment
+  - the training and evaluation sets are said to be shared, but it is not said
+how (on demand?, under license?) - to be able to repeat the experiment
+
+- General Discussion:"

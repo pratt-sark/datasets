@@ -1,0 +1,23 @@
+title,abstract,comment,score
+Reinforcement Learning with Unsupervised Auxiliary Tasks,"Deep reinforcement learning agents have achieved state-of-the-art results by directly maximising cumulative reward. However, environments contain a much wider variety of possible training signals. In this paper, we introduce an agent that also maximises many other pseudo-reward functions simultaneously by reinforcement learning. All of these tasks share a common representation that, like unsupervised learning, continues to develop in the absence of extrinsic rewards. We also introduce a novel mechanism for focusing this representation upon extrinsic rewards, so that learning can rapidly adapt to the most relevant aspects of the actual task. Our agent significantly outperforms the previous state-of-the-art on Atari, averaging 880\% expert human performance, and a challenging suite of first-person, three-dimensional \emph{Labyrinth} tasks leading to a mean speedup in learning of 10$\times$ and averaging 87\% expert human performance on Labyrinth.","This paper proposes a way of adding unsupervised auxiliary tasks to a deep RL agent like A3C. Authors propose a bunch of auxiliary control tasks and auxiliary reward tasks and evaluate the agent in Labyrinth and Atari. Proposed UNREAL agent performs significantly better than A3C and also learns faster. This is definitely a good contribution to the conference. However, this is not a surprising result since adding additional auxiliary tasks that are relevant to the goal should always help in better and faster feature shaping. This paper is a proof of concept for this idea.
+
+The paper is well written and easy to follow by any reader with deep RL expertise.
+
+Can authors comment about the computational resources needed to train the UNREAL agent?
+
+The overall architecture is quite complicated. Are the authors willing to release the source code for their model?
+
+--------------------------------------------------------
+After rebuttal:
+No change in the review.",{'CLARITY': 5}
+Reinforcement Learning with Unsupervised Auxiliary Tasks,"Deep reinforcement learning agents have achieved state-of-the-art results by directly maximising cumulative reward. However, environments contain a much wider variety of possible training signals. In this paper, we introduce an agent that also maximises many other pseudo-reward functions simultaneously by reinforcement learning. All of these tasks share a common representation that, like unsupervised learning, continues to develop in the absence of extrinsic rewards. We also introduce a novel mechanism for focusing this representation upon extrinsic rewards, so that learning can rapidly adapt to the most relevant aspects of the actual task. Our agent significantly outperforms the previous state-of-the-art on Atari, averaging 880\% expert human performance, and a challenging suite of first-person, three-dimensional \emph{Labyrinth} tasks leading to a mean speedup in learning of 10$\times$ and averaging 87\% expert human performance on Labyrinth.","This paper proposes a way of adding unsupervised auxiliary tasks to a deep RL agent like A3C. Authors propose a bunch of auxiliary control tasks and auxiliary reward tasks and evaluate the agent in Labyrinth and Atari. Proposed UNREAL agent performs significantly better than A3C and also learns faster. This is definitely a good contribution to the conference. However, this is not a surprising result since adding additional auxiliary tasks that are relevant to the goal should always help in better and faster feature shaping. This paper is a proof of concept for this idea.
+
+The paper is well written and easy to follow by any reader with deep RL expertise.
+
+Can authors comment about the computational resources needed to train the UNREAL agent?
+
+The overall architecture is quite complicated. Are the authors willing to release the source code for their model?
+
+--------------------------------------------------------
+After rebuttal:
+No change in the review.",{'CLARITY': 5}

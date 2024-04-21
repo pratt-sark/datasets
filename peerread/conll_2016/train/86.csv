@@ -1,0 +1,10 @@
+title,abstract,score,comment
+App2Check and Tweet2Check: machine learning-based tools for Sentiment Analysis of Apps Reviews and Tweets,"Sentiment Analysis has nowadays a crucial role in social media analysis and, more generally, in analyzing user opinions about general topics or user reviews about product/services, enabling a huge number of applications. Many methods and software implementing different approaches exist and there is not a clear best approach for Sentiment classification/quantification. We believe that performance reached by machine learning approaches is a key advantage to apply to sentiment analysis in order to reach a performance which is very close to the one obtained by a group of humans, who evaluate subjective sentences such as user reviews. In this paper, we present the results of our experimental evaluation of both research and commercial state-of-the-art tools for Sentiment Analysis, considering as benchmarks, both user reviews related to the evaluation of apps published to app stores and tweets. Thus, we show that our tools App2Check and Tweet2Check --developed mainly applying supervised learning techniques-- are the best tools for sentiment evaluation on apps reviews and tweets for both Italian and English language, compared to the state-of-the-art research tools.","{'IMPACT': '1', 'SUBSTANCE': '1', 'APPROPRIATENESS': '2', 'MEANINGFUL_COMPARISON': '2', 'SOUNDNESS_CORRECTNESS': '2', 'ORIGINALITY': '2', 'CLARITY': '2'}","No details are provided on the methods used in this paper to produce the
+results, due to issues of 'non-disclosure restrictions'.  If the reader doesn't
+know the learning algorithm or the training data (or other resources made use
+of in the approach), then there is nothing in the paper to help with the
+reader's own sentiment analysis methods, which is why we share research.  This
+is not a research paper, hence does not belong in this conference.  Perhaps a
+submission to a demo session somewhere would be a good idea.  Even with a demo
+paper, however, you would need to share more details about the methods used
+than you do here."
